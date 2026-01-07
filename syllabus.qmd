@@ -1,0 +1,366 @@
+---
+title: QMIR 2026 Syllabus
+author: Tristan Muno
+draft: true
+---
+
+## Session 1: Quantitative Research as Inference Under Uncertainty
+
+**Dates:**
+
+| Class | Date |
+|-------|------|
+| Monday | February 09, 2026 |
+| Thursday | February 12, 2026 |
+
+**Description:** 
+
+1. Official welcome and introduction
+2. What counts as an empirical claim in Political Science / IR
+3. Data analysis vs statistical inference vs causal inference
+4. Course expectations: coding, math, independence
+5. Overview of the course workload and tools
+
+**Learning Objectives:** 
+
+- Understand the epistemic goals of quantitative research
+- Distinguish descriptive, inferential, and causal claims
+- Understand course structure, requirements, and assessment
+
+**Assignment:** If you have not done so yet, please install all required software programs and packages.
+
+**Literature:**
+
+# Block I: Scientific Programming Fundamentals
+
+## Session 2: Reproducible Research and the Computational Workflow
+
+**Dates**
+Monday: February 16, 2026
+Thursday: February 19, 2026
+
+**Description:** 
+
+1. Scientific knowledge as a computational process
+2. Reproducibility vs replicability
+3. Research artifacts: scripts, notebooks, reports
+4. Project structure, file paths, and version control
+5. Deterministic vs stochastic workflows
+6. Algorithms and pseudocode as formal reasoning tools
+
+**Learning Objectives:**
+
+- Understand reproducibility as a scientific norm
+- Organize empirical research as a structured project
+- Use Quarto and Git to create reproducible analyses
+
+**Assignment:** 
+
+- Set up a reproducible Quarto project with Git
+- Produce deterministic and stochastic outputs
+- Brief written reflection on reproducibility vs replicability
+
+**Literature:**
+
+## Session 3: Data, Objects, and Formal Representation in R
+
+**Dates**
+Monday: February 23, 2026
+Thursday: February 26, 2026
+
+**Description:** 
+
+1. Programming as formalization of assumptions
+2. Objects, functions, and assignment
+3. Core data structures in R
+4. Variable types and missing values
+5. Tidy data principles
+
+**Learning Objectives:**
+
+- Write and read basic R code
+- Understand how data are represented computationally
+- Prepare data for analysis and modeling
+
+**Assignment:** 
+
+- Clean and restructure a messy dataset
+- Convert to tidy format
+- Explicitly document variable types and missingness
+
+**Literature:**
+
+## Session 4: Data Transformation, Integration, and Visual Reasoning
+
+**Dates**
+Monday: March 02, 2026
+Thursday: March 05, 2026
+
+**Description:** 
+
+1. Subsetting and aggregation as analytical choices
+2. Merging datasets and identifiers
+3. Missing data as a substantive problem
+4. Visualization as reasoning, not decoration
+5. Visualizing uncertainty
+
+**Learning Objectives:**
+
+- Combine multiple data sources correctly
+- Diagnose data problems using visualization
+- Produce interpretable and honest graphics
+
+**Assignment:** 
+
+**Literature:**
+
+## Session 5: Exploratory Data Analysis as Model Critique
+
+**Dates:**
+Monday: March 09, 2026
+Thursday: March 12, 2026
+
+**Description:** 
+
+1. EDA as structured learning from data
+2. Descriptive vs inferential summaries
+3. Distributional thinking and outliers
+4. Transformations and sensitivity
+5. EDA as preparation for modeling
+
+**Learning Objectives:**
+
+- Conduct systematic exploratory data analysis
+- Identify patterns, anomalies, and modeling implications
+- Avoid overinterpretation at the descriptive stage
+
+**Assignment:** 
+
+- Full EDA report on a dataset
+- Include summaries, plots, and transformations
+- End with proposed modeling assumptions
+
+**Literature:**
+
+# Block II: The Logic of Bayesian Scientific Inference
+
+## Session 6: Probability as Epistemic Logic
+
+**Dates**
+Monday: March 16, 2026
+Thursday: March 19, 2026
+
+**Description:** 
+
+1. Uncertainty as the starting point of inference
+2. Probability as a logic of plausibility
+3. Conditional reasoning and Bayes' rule
+4. Prior, likelihood, and posterior
+
+**Learning Objectives:**
+
+- Interpret probability as degree of uncertainty
+- Understand Bayesian updating conceptually
+- See data as realizations of a generative process
+
+**Assignment:** 
+
+- Specify a simple generative model
+- Simulate prior predictive data
+- Update beliefs with observed data
+- Visualize prior vs posterior distributions
+ 
+**Literature:**
+
+## Session 7: Research Design, Causality, and Inferential Targets
+
+**Dates**
+Monday: March 23, 2026
+Thursday: March 26, 2026
+
+**Description:** 
+
+1. From research to questions to inferential targets
+2. Generative models and causal stories
+3. DAGs as representations of assumptions
+4. Parameters, estimands, and estimates
+5. Identifiability, uncertainty, and assumptions
+
+**Learning Objectives:**
+
+- Translate substantive questions into estimands
+- Understand the role of assumptions in inference
+- Distinguish uncertainty due to data vs design
+
+**Assignment:** 
+
+- Research design memo
+- Define a research question and estimand
+- Draw a DAG
+- Discuss identification challenges and assumptions
+
+**Literature:**
+
+# Block III: Applied Data Analysis
+
+## Session 8: Linear Regression as a Generative Probabilistic Model
+
+**Dates**
+Monday: April 13, 2026
+Thursday: April 16, 2026
+
+**Description:** 
+
+1. Regression as conditional expectation
+2. Gaussian likelihood and noise
+3. Bayesian workflow: priors, checks, estimation
+4. Posterior interpretation and prediction
+5. Model critique and misspecification
+
+**Learning Objectives:**
+
+- Specify and estimate Bayesian linear models
+- Interpret regression results probabilistically
+- Diagnose model fit and assumptions
+
+**Assignment:** 
+
+- Fit a Bayesian linear regression
+- Conduct prior and posterior predictive checks
+- Report quantities of interest with uncertainty
+
+**Literature:**
+
+## Session 9: Multivariate Models, Controls, and Effect Heterogeneity
+
+**Dates**
+Monday: April 20, 2026
+Thursday: April 23, 2026
+
+**Description:** 
+
+1. Conditional relationships and omitted variable bias
+2. Controls guided by DAGs
+3. Dummy variables and continuous controls
+4. Interactions as conditional effects
+5. Multicollinearity as an information problem
+
+**Learning Objectives:**
+
+- Specify multivariate regression models
+- Interpret interactions using predictions
+- Justify control strategies
+
+**Assignment:** 
+
+- Estimate a multivariate model with interactions
+- Visualize conditional effects
+- Explain results without relying on coefficients alone
+
+**Literature:**
+
+## Session 10: Binary Outcome Models and Probabilistic Prediction
+
+**Dates**
+Monday: April 27, 2026
+Thursday: April 30, 2026
+
+**Description:** 
+
+1. Modeling discrete outcomes
+2. Bernoulli likelohood and link functions
+3. Logistic regression intuition
+4. Prediction and counterfactuals
+5. Separation and instability
+
+**Learning Objectives:**
+
+- Model binary outcomes probabilistically
+- Interpret predicted probabilities and uncertainty
+- Conduct counterfactual predictions
+
+**Assignment:** 
+
+- Fit a Bayesian logistic regression
+- Generate predicted probabilities
+- Perform and interpret a counterfactual scenario
+
+**Literature:**
+
+## Session 11: Fixed Effects and Within-Unit Inference
+
+**Dates**
+Monday: May 04, 2026
+Thursday: May 07, 2026
+
+**Description:** 
+
+1. Hierarchical data structures
+2. Logic of fixed effects
+3. Within-unit vs between-unit variation
+4. Interpretation and information loss
+5. Limits of fixed effects
+
+**Learning Objectives:**
+
+- Understand what fixed effects identify
+- Interpret coefficients correctly
+- Recognize trade-offs of FE models
+
+**Assignment:** 
+
+- Compare pooled and fixed-effects models
+- Interpret differences substantively
+- Reflect on identification trade-offs
+
+**Literature:**
+
+## Session 12: Multilevel Models and Partial Pooling
+
+**Dates**
+Monday: May 11, 2026
+Thursday: May 21, 2026
+
+**Description:** 
+
+1. Pooling strategies
+2. Random intercepts and slopes
+3. Shrinkage and bias-variance tradeoff
+4. Exchangebility assumptions
+5. When multilevel models fail
+
+**Learning Objectives:**
+
+- Specify and interpret multilevel models
+- Understand partial pooling substantively
+- Decide when hierarchical models are appropriate
+
+**Assignment:** 
+
+- Fit a multilevel model
+- Compare to pooled and FE alternatives
+- Interpret shrinkage effects
+
+**Literature:**
+
+## Session 13: Semester Wrap Up
+
+**Dates**
+Monday: May 18, 2026
+Thursday: May 28, 2026
+
+**Description:** 
+
+1. Writing results with uncertainty language
+2. Common inferential fallacies
+3. Transparency and reporting standards
+4. Reproducibility checklist
+5. From coursework to Bachlor thesis (QuickQuartoSetup)
+
+**Learning Objectives:**
+
+- Communicate results responsibly
+- Apply reproducibility standards
+- Prepare for independent research
+ 
+**Literature:**

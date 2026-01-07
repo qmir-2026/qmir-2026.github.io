@@ -1,0 +1,135 @@
+[
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "QMIR 2026 Syllabus",
+    "section": "",
+    "text": "Dates:\n\n\n\nClass\nDate\n\n\n\n\nMonday\nFebruary 09, 2026\n\n\nThursday\nFebruary 12, 2026\n\n\n\nDescription:\n\nOfficial welcome and introduction\nWhat counts as an empirical claim in Political Science / IR\nData analysis vs statistical inference vs causal inference\nCourse expectations: coding, math, independence\nOverview of the course workload and tools\n\nLearning Objectives:\n\nUnderstand the epistemic goals of quantitative research\nDistinguish descriptive, inferential, and causal claims\nUnderstand course structure, requirements, and assessment\n\nAssignment: If you have not done so yet, please install all required software programs and packages.\nLiterature:"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "syllabus.html#session-2-reproducible-research-and-the-computational-workflow",
+    "href": "syllabus.html#session-2-reproducible-research-and-the-computational-workflow",
+    "title": "QMIR 2026 Syllabus",
+    "section": "Session 2: Reproducible Research and the Computational Workflow",
+    "text": "Session 2: Reproducible Research and the Computational Workflow\nDates Monday: February 16, 2026 Thursday: February 19, 2026\nDescription:\n\nScientific knowledge as a computational process\nReproducibility vs replicability\nResearch artifacts: scripts, notebooks, reports\nProject structure, file paths, and version control\nDeterministic vs stochastic workflows\nAlgorithms and pseudocode as formal reasoning tools\n\nLearning Objectives:\n\nUnderstand reproducibility as a scientific norm\nOrganize empirical research as a structured project\nUse Quarto and Git to create reproducible analyses\n\nAssignment:\n\nSet up a reproducible Quarto project with Git\nProduce deterministic and stochastic outputs\nBrief written reflection on reproducibility vs replicability\n\nLiterature:"
+  },
+  {
+    "objectID": "syllabus.html#session-3-data-objects-and-formal-representation-in-r",
+    "href": "syllabus.html#session-3-data-objects-and-formal-representation-in-r",
+    "title": "QMIR 2026 Syllabus",
+    "section": "Session 3: Data, Objects, and Formal Representation in R",
+    "text": "Session 3: Data, Objects, and Formal Representation in R\nDates Monday: February 23, 2026 Thursday: February 26, 2026\nDescription:\n\nProgramming as formalization of assumptions\nObjects, functions, and assignment\nCore data structures in R\nVariable types and missing values\nTidy data principles\n\nLearning Objectives:\n\nWrite and read basic R code\nUnderstand how data are represented computationally\nPrepare data for analysis and modeling\n\nAssignment:\n\nClean and restructure a messy dataset\nConvert to tidy format\nExplicitly document variable types and missingness\n\nLiterature:"
+  },
+  {
+    "objectID": "syllabus.html#session-4-data-transformation-integration-and-visual-reasoning",
+    "href": "syllabus.html#session-4-data-transformation-integration-and-visual-reasoning",
+    "title": "QMIR 2026 Syllabus",
+    "section": "Session 4: Data Transformation, Integration, and Visual Reasoning",
+    "text": "Session 4: Data Transformation, Integration, and Visual Reasoning\nDates Monday: March 02, 2026 Thursday: March 05, 2026\nDescription:\n\nSubsetting and aggregation as analytical choices\nMerging datasets and identifiers\nMissing data as a substantive problem\nVisualization as reasoning, not decoration\nVisualizing uncertainty\n\nLearning Objectives:\n\nCombine multiple data sources correctly\nDiagnose data problems using visualization\nProduce interpretable and honest graphics\n\nAssignment:\nLiterature:"
+  },
+  {
+    "objectID": "syllabus.html#session-5-exploratory-data-analysis-as-model-critique",
+    "href": "syllabus.html#session-5-exploratory-data-analysis-as-model-critique",
+    "title": "QMIR 2026 Syllabus",
+    "section": "Session 5: Exploratory Data Analysis as Model Critique",
+    "text": "Session 5: Exploratory Data Analysis as Model Critique\nDates: Monday: March 09, 2026 Thursday: March 12, 2026\nDescription:\n\nEDA as structured learning from data\nDescriptive vs inferential summaries\nDistributional thinking and outliers\nTransformations and sensitivity\nEDA as preparation for modeling\n\nLearning Objectives:\n\nConduct systematic exploratory data analysis\nIdentify patterns, anomalies, and modeling implications\nAvoid overinterpretation at the descriptive stage\n\nAssignment:\n\nFull EDA report on a dataset\nInclude summaries, plots, and transformations\nEnd with proposed modeling assumptions\n\nLiterature:"
+  },
+  {
+    "objectID": "syllabus.html#session-6-probability-and-bayesian-updating",
+    "href": "syllabus.html#session-6-probability-and-bayesian-updating",
+    "title": "QMIR 2026 Syllabus",
+    "section": "Session 6: Probability and Bayesian Updating",
+    "text": "Session 6: Probability and Bayesian Updating"
+  },
+  {
+    "objectID": "syllabus.html#session-7-research-design-causality-and-inferential-targets",
+    "href": "syllabus.html#session-7-research-design-causality-and-inferential-targets",
+    "title": "QMIR 2026 Syllabus",
+    "section": "Session 7: Research Design, Causality, and Inferential Targets",
+    "text": "Session 7: Research Design, Causality, and Inferential Targets\nDates Monday: March 23, 2026 Thursday: March 26, 2026\nDescription:\n\nFrom research to questions to inferential targets\nGenerative models and causal stories\nDAGs as representations of assumptions\nParameters, estimands, and estimates\nIdentifiability, uncertainty, and assumptions\n\nLearning Objectives:\n\nTranslate substantive questions into estimands\nUnderstand the role of assumptions in inference\nDistinguish uncertainty due to data vs design\n\nAssignment:\n\nResearch design memo\nDefine a research question and estimand\nDraw a DAG\nDiscuss identification challenges and assumptions\n\nLiterature:"
+  },
+  {
+    "objectID": "syllabus.html#session-8-linear-regression-as-a-generative-probabilistic-model",
+    "href": "syllabus.html#session-8-linear-regression-as-a-generative-probabilistic-model",
+    "title": "QMIR 2026 Syllabus",
+    "section": "Session 8: Linear Regression as a Generative Probabilistic Model",
+    "text": "Session 8: Linear Regression as a Generative Probabilistic Model\nDates Monday: April 13, 2026 Thursday: April 16, 2026\nDescription:\n\nRegression as conditional expectation\nGaussian likelihood and noise\nBayesian workflow: priors, checks, estimation\nPosterior interpretation and prediction\nModel critique and misspecification\n\nLearning Objectives:\n\nSpecify and estimate Bayesian linear models\nInterpret regression results probabilistically\nDiagnose model fit and assumptions\n\nAssignment:\n\nFit a Bayesian linear regression\nConduct prior and posterior predictive checks\nReport quantities of interest with uncertainty\n\nLiterature:"
+  },
+  {
+    "objectID": "syllabus.html#session-9-multivariate-models-controls-and-effect-heterogeneity",
+    "href": "syllabus.html#session-9-multivariate-models-controls-and-effect-heterogeneity",
+    "title": "QMIR 2026 Syllabus",
+    "section": "Session 9: Multivariate Models, Controls, and Effect Heterogeneity",
+    "text": "Session 9: Multivariate Models, Controls, and Effect Heterogeneity\nDates Monday: April 20, 2026 Thursday: April 23, 2026\nDescription:\n\nConditional relationships and omitted variable bias\nControls guided by DAGs\nDummy variables and continuous controls\nInteractions as conditional effects\nMulticollinearity as an information problem\n\nLearning Objectives:\n\nSpecify multivariate regression models\nInterpret interactions using predictions\nJustify control strategies\n\nAssignment:\n\nEstimate a multivariate model with interactions\nVisualize conditional effects\nExplain results without relying on coefficients alone\n\nLiterature:"
+  },
+  {
+    "objectID": "syllabus.html#session-10-binary-outcome-models-and-probabilistic-prediction",
+    "href": "syllabus.html#session-10-binary-outcome-models-and-probabilistic-prediction",
+    "title": "QMIR 2026 Syllabus",
+    "section": "Session 10: Binary Outcome Models and Probabilistic Prediction",
+    "text": "Session 10: Binary Outcome Models and Probabilistic Prediction\nDates Monday: April 27, 2026 Thursday: April 30, 2026\nDescription:\n\nModeling discrete outcomes\nBernoulli likelohood and link functions\nLogistic regression intuition\nPrediction and counterfactuals\nSeparation and instability\n\nLearning Objectives:\n\nModel binary outcomes probabilistically\nInterpret predicted probabilities and uncertainty\nConduct counterfactual predictions\n\nAssignment:\n\nFit a Bayesian logistic regression\nGenerate predicted probabilities\nPerform and interpret a counterfactual scenario\n\nLiterature:"
+  },
+  {
+    "objectID": "syllabus.html#session-11-hierarchical-data-structures-i-fixed-effects-models",
+    "href": "syllabus.html#session-11-hierarchical-data-structures-i-fixed-effects-models",
+    "title": "QMIR 2026 Syllabus",
+    "section": "Session 11: Hierarchical Data Structures I (Fixed Effects Models)",
+    "text": "Session 11: Hierarchical Data Structures I (Fixed Effects Models)"
+  },
+  {
+    "objectID": "syllabus.html#session-12-hierarchical-data-structures-ii-multilevel-models",
+    "href": "syllabus.html#session-12-hierarchical-data-structures-ii-multilevel-models",
+    "title": "QMIR 2026 Syllabus",
+    "section": "Session 12: Hierarchical Data Structures II (Multilevel Models)",
+    "text": "Session 12: Hierarchical Data Structures II (Multilevel Models)"
+  },
+  {
+    "objectID": "syllabus.html#session-13-semester-wrap-up",
+    "href": "syllabus.html#session-13-semester-wrap-up",
+    "title": "QMIR 2026 Syllabus",
+    "section": "Session 13: Semester Wrap Up",
+    "text": "Session 13: Semester Wrap Up\nDates Monday: May 18, 2026 Thursday: May 28, 2026\nDescription:\n\nWriting results with uncertainty language\nCommon inferential fallacies\nTransparency and reporting standards\nReproducibility checklist\nFrom coursework to Bachlor thesis (QuickQuartoSetup)\n\nLearning Objectives:\n\nCommunicate results responsibly\nApply reproducibility standards\nPrepare for independent research\n\nLiterature:"
+  },
+  {
+    "objectID": "syllabus.html#session-1-quantitative-research-as-inference-under-uncertainty",
+    "href": "syllabus.html#session-1-quantitative-research-as-inference-under-uncertainty",
+    "title": "QMIR 2026 Syllabus",
+    "section": "",
+    "text": "Dates:\n\n\n\nClass\nDate\n\n\n\n\nMonday\nFebruary 09, 2026\n\n\nThursday\nFebruary 12, 2026\n\n\n\nDescription:\n\nOfficial welcome and introduction\nWhat counts as an empirical claim in Political Science / IR\nData analysis vs statistical inference vs causal inference\nCourse expectations: coding, math, independence\nOverview of the course workload and tools\n\nLearning Objectives:\n\nUnderstand the epistemic goals of quantitative research\nDistinguish descriptive, inferential, and causal claims\nUnderstand course structure, requirements, and assessment\n\nAssignment: If you have not done so yet, please install all required software programs and packages.\nLiterature:"
+  },
+  {
+    "objectID": "syllabus.html#session-6-probability-as-epistemic-logic",
+    "href": "syllabus.html#session-6-probability-as-epistemic-logic",
+    "title": "QMIR 2026 Syllabus",
+    "section": "Session 6: Probability as Epistemic Logic",
+    "text": "Session 6: Probability as Epistemic Logic\nDates Monday: March 16, 2026 Thursday: March 19, 2026\nDescription:\n\nUncertainty as the starting point of inference\nProbability as a logic of plausibility\nConditional reasoning and Bayes’ rule\nPrior, likelihood, and posterior\n\nLearning Objectives:\n\nInterpret probability as degree of uncertainty\nUnderstand Bayesian updating conceptually\nSee data as realizations of a generative process\n\nAssignment:\n\nSpecify a simple generative model\nSimulate prior predictive data\nUpdate beliefs with observed data\nVisualize prior vs posterior distributions\n\nLiterature:"
+  },
+  {
+    "objectID": "syllabus.html#session-11-fixed-effects-and-within-unit-inference",
+    "href": "syllabus.html#session-11-fixed-effects-and-within-unit-inference",
+    "title": "QMIR 2026 Syllabus",
+    "section": "Session 11: Fixed Effects and Within-Unit Inference",
+    "text": "Session 11: Fixed Effects and Within-Unit Inference\nDates Monday: May 04, 2026 Thursday: May 07, 2026\nDescription:\n\nHierarchical data structures\nLogic of fixed effects\nWithin-unit vs between-unit variation\nInterpretation and information loss\nLimits of fixed effects\n\nLearning Objectives:\n\nUnderstand what fixed effects identify\nInterpret coefficients correctly\nRecognize trade-offs of FE models\n\nAssignment:\n\nCompare pooled and fixed-effects models\nInterpret differences substantively\nReflect on identification trade-offs\n\nLiterature:"
+  },
+  {
+    "objectID": "syllabus.html#session-12-multilevel-models-and-partial-pooling",
+    "href": "syllabus.html#session-12-multilevel-models-and-partial-pooling",
+    "title": "QMIR 2026 Syllabus",
+    "section": "Session 12: Multilevel Models and Partial Pooling",
+    "text": "Session 12: Multilevel Models and Partial Pooling\nDates Monday: May 11, 2026 Thursday: May 21, 2026\nDescription:\n\nPooling strategies\nRandom intercepts and slopes\nShrinkage and bias-variance tradeoff\nExchangebility assumptions\nWhen multilevel models fail\n\nLearning Objectives:\n\nSpecify and interpret multilevel models\nUnderstand partial pooling substantively\nDecide when hierarchical models are appropriate\n\nAssignment:\n\nFit a multilevel model\nCompare to pooled and FE alternatives\nInterpret shrinkage effects\n\nLiterature:"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "QMIR 2026",
+    "section": "",
+    "text": "Welcome to the course website of quantitative methods in international relations 2026!\nYou can find the course outline here."
+  }
+]

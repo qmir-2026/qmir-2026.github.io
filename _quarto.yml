@@ -1,0 +1,23 @@
+project:
+  type: website
+
+website:
+  title: "QMIR 2026"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: syllabus.qmd
+        text: Syllabus
+      - about.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+
+
