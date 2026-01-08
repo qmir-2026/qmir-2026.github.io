@@ -9,7 +9,8 @@ website:
         text: Home
       - href: syllabus.qmd
         text: Syllabus
-      - about.qmd
+      - href: about.qmd
+        text: About
 
 format:
   html:

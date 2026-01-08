@@ -1,7 +1,7 @@
 ---
 title: "QMIR 2026"
 subtitle: "University of Mannheim"
-draft: true
+draft: false
 ---
 
 Welcome to the course website of quantitative methods in international relations 2026!
