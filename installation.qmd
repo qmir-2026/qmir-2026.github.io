@@ -1,0 +1,58 @@
+---
+title: "Getting Started: Installation Guide" 
+---
+
+## Why so many tools?
+
+This course introduces you to a range of software tools which, taken together, form a powerful and contemporary toolbox for transparent, reproducible, and scalable empirical research. Rather than relying on a single piece of software, you will learn how different tools interact and complement one another --- much like they do in real-world research workflows.
+
+## Feeling overwhelmed is normal (and expected)
+
+Encountering many tools at once can feel complex and, at times, overwhelming. This is entirely normal and an expected part of the learning process. Modern research environments evolve quickly, with new libraries, platforms, and technologies (including AI-based tools) constantly emerging. One of the central goals of this course is therefore not just to teach specific tools, but to help you develop the ability to learn how to learn programming and computational methods --- an essential and transferable skill for any data-driven career.
+
+## Tools as part of a research workflow
+
+Importantly, these tools are not only used to perform calculations or produce results. They also help you document decisions, protocol analytical steps, collaborate with others, and build workflows that can be extended, reproduced, and scaled. In this sense, the course aims to familiarize you with research practices that more closely resemble how high-quality empirical work is actually conducted.
+
+## Learning concepts, not just commands
+
+Given the scope of the course, we will inevitably only scratch the surface --- the “tip of the iceberg” --- of many of these tools. However, I will emphasize conceptual understanding: how the tools work in principle, why they are useful, and in which situations they are beneficial. This foundation is designed to enable you to work independently and confidently with these (and future) tools beyond the course.
+
+## Pragmatism over dogmatism
+
+The workflow and software stack presented here reflect my own experience and day-to-day research practice. They are not meant to be prescriptive or dogmatic. There is no single “correct” way to code or to structure an analysis, and many different approaches can lead to the same goal. Pragmatism matters: tools should serve your research questions, not the other way around.
+
+## Installation timeline
+
+This site provides an overview of all software you are expected to install for the course. While not all tools will be used in the first week, I strongly recommend installing everything as early as possible. This gives us time to troubleshoot potential issues and ensures that technical setup does not become a bottleneck once we move into substantive work.
+
+# Installing R
+
+First, you need to install R, a free and open-source programming language widely used for statistical analysis, data visualization, and reproducible research. R will be our main "tool", you can think of it as an enginge that deals with our calculations.[^renginge] 
+
+[^renginge]: The engine-dashboard-analogy is borrowed from [Andrew Heiss](https://datavizf25.classes.andrewheiss.com/syllabus.html#r-and-rstudio).
+
+1. Go to the Comprehensive R Archive Network (CRAN) website: https://cran.r-project.org/
+2. Click "Download R for Windows" or "Download R for MacOS", depending on your operating system.
+3. If on **Windows**, select `base` and the installation file will be downloaded. If on **MacOS**, click the latest version (4.5.2 at the time of writing this manual) either for Apple silicon chips (`R-4.5.2-arm64.pkg`) or older Macs with Intel chips (`R-4.5.2-x86_64.pkg`).
+4. If you are on Mac, [download and install XQuartz](https://www.xquartz.org/) as well. For windows, this step is not necessary.
+
+
+# Installing Positron
+
+Next, we will use Positron as our integrated development environment (IDE) to program with R.
+You can think of it as the car dashboard for our engine (R), as it provides a graphic user interface (GUI) to better control, monitor and implement R code. Positron is a free and source available IDE designed specifically for data science with R and Python.
+
+1. Navigate to https://positron.posit.co/install.html
+2. Tick the box to accept the licence agreement and download the `.exe` installation file for your respective operating system:
+    - On **Windows**, `system level install` will install Positron for all user accounts on your computer, while the `user level install` version will only install Positron for your current used account.
+    - On **MacOS**, you can either install the `universal` version that works for all Macs but is larger in file size or chose the `arm64/Apple Silicon` version for Macs with Apple chips and `x64/Intel` if your Mac has an Intel chip.
+3. Run the downloaded file to install Positron.
+
+# Installing the `tidyverse` package
+
+# Installing Git
+
+# Installing a C++ compiler
+
+# Installing the `brms` package
