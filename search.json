@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "installation.html",
+    "href": "installation.html",
+    "title": "Getting Started: Installation Guide",
+    "section": "",
+    "text": "This course introduces you to a range of software tools which, taken together, form a powerful and contemporary toolbox for transparent, reproducible, and scalable empirical research. Rather than relying on a single piece of software, you will learn how different tools interact and complement one another — much like they do in real-world research workflows."
+  },
+  {
+    "objectID": "installation.html#why-so-many-tools",
+    "href": "installation.html#why-so-many-tools",
+    "title": "Getting Started: Installation Guide",
+    "section": "",
+    "text": "This course introduces you to a range of software tools which, taken together, form a powerful and contemporary toolbox for transparent, reproducible, and scalable empirical research. Rather than relying on a single piece of software, you will learn how different tools interact and complement one another — much like they do in real-world research workflows."
+  },
+  {
+    "objectID": "installation.html#feeling-overwhelmed-is-normal-and-expected",
+    "href": "installation.html#feeling-overwhelmed-is-normal-and-expected",
+    "title": "Getting Started: Installation Guide",
+    "section": "Feeling overwhelmed is normal (and expected)",
+    "text": "Feeling overwhelmed is normal (and expected)\nEncountering many tools at once can feel complex and, at times, overwhelming. This is entirely normal and an expected part of the learning process. Modern research environments evolve quickly, with new libraries, platforms, and technologies (including AI-based tools) constantly emerging. One of the central goals of this course is therefore not just to teach specific tools, but to help you develop the ability to learn how to learn programming and computational methods — an essential and transferable skill for any data-driven career."
+  },
+  {
+    "objectID": "installation.html#tools-as-part-of-a-research-workflow",
+    "href": "installation.html#tools-as-part-of-a-research-workflow",
+    "title": "Getting Started: Installation Guide",
+    "section": "Tools as part of a research workflow",
+    "text": "Tools as part of a research workflow\nImportantly, these tools are not only used to perform calculations or produce results. They also help you document decisions, protocol analytical steps, collaborate with others, and build workflows that can be extended, reproduced, and scaled. In this sense, the course aims to familiarize you with research practices that more closely resemble how high-quality empirical work is actually conducted."
+  },
+  {
+    "objectID": "installation.html#learning-concepts-not-just-commands",
+    "href": "installation.html#learning-concepts-not-just-commands",
+    "title": "Getting Started: Installation Guide",
+    "section": "Learning concepts, not just commands",
+    "text": "Learning concepts, not just commands\nGiven the scope of the course, we will inevitably only scratch the surface — the “tip of the iceberg” — of many of these tools. However, I will emphasize conceptual understanding: how the tools work in principle, why they are useful, and in which situations they are beneficial. This foundation is designed to enable you to work independently and confidently with these (and future) tools beyond the course."
+  },
+  {
+    "objectID": "installation.html#pragmatism-over-dogmatism",
+    "href": "installation.html#pragmatism-over-dogmatism",
+    "title": "Getting Started: Installation Guide",
+    "section": "Pragmatism over dogmatism",
+    "text": "Pragmatism over dogmatism\nThe workflow and software stack presented here reflect my own experience and day-to-day research practice. They are not meant to be prescriptive or dogmatic. There is no single “correct” way to code or to structure an analysis, and many different approaches can lead to the same goal. Pragmatism matters: tools should serve your research questions, not the other way around."
+  },
+  {
+    "objectID": "installation.html#installation-timeline",
+    "href": "installation.html#installation-timeline",
+    "title": "Getting Started: Installation Guide",
+    "section": "Installation timeline",
+    "text": "Installation timeline\nThis site provides an overview of all software you are expected to install for the course. While not all tools will be used in the first week, I strongly recommend installing everything as early as possible. This gives us time to troubleshoot potential issues and ensures that technical setup does not become a bottleneck once we move into substantive work."
+  },
+  {
+    "objectID": "installation.html#footnotes",
+    "href": "installation.html#footnotes",
+    "title": "Getting Started: Installation Guide",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThe engine-dashboard-analogy is borrowed from Andrew Heiss.↩︎"
+  }
+]
