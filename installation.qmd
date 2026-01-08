@@ -44,10 +44,23 @@ Next, we will use Positron as our integrated development environment (IDE) to pr
 You can think of it as the car dashboard for our engine (R), as it provides a graphic user interface (GUI) to better control, monitor and implement R code. Positron is a free and source available IDE designed specifically for data science with R and Python.
 
 1. Navigate to https://positron.posit.co/install.html
-2. Tick the box to accept the licence agreement and download the `.exe` installation file for your respective operating system:
-    - On **Windows**, `system level install` will install Positron for all user accounts on your computer, while the `user level install` version will only install Positron for your current used account.
-    - On **MacOS**, you can either install the `universal` version that works for all Macs but is larger in file size or chose the `arm64/Apple Silicon` version for Macs with Apple chips and `x64/Intel` if your Mac has an Intel chip.
-3. Run the downloaded file to install Positron.
+2. Make sure to install all prerequisites listed for your operating system (you ignore the `Python setup` and `R setup` panes).
+3. Accept the license agreement by ticking the box.
+4. Click `Download Positron for XX` and run the downloaded file to install Positron.
+
+::: {.callout-note}
+## Why are we not using RStudio?
+
+If you had any contact with R already or know people who have, you may be aware that one of the most widespread IDEs for R is actually RStudio.
+I decided to teach Positron for a couple of reasons:
+
+1. It is a modern and super useful for both programming and project management that contains nice new features that allow both for good integration of coding with R and writing with Quarto.
+2. It works neatly with R *and* Python --- although we learn R here, I consider it highly valuable to have the future possibility of incorporating Python as well, as many scientific disciplines and applied enterprises use Python.
+3. It has a very good graphical integration of version controlling using git.
+4. It is built on an open source precessor of ant thus very similar to VS Code, one of the most popular IDE globally.
+5. Finally, I am confident that if you learn to navigate and work with Positron, you will have no problem adapting to RStudio.
+
+:::
 
 # Installing the `tidyverse` package
 
