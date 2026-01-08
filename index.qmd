@@ -1,0 +1,13 @@
+---
+title: "QMIR 2026"
+author: Tristan Muno
+draft: true
+---
+
+Welcome to the course website of quantitative methods in international relations 2026!
+
+This course introduces students to quantitative research methods in international relations and European integration using modern tools for scientific programming and reproducible research. Students will learn how to analyze and visualize data in R, document their work using Quarto, and manage their projects efficiently using Git and GitHub. These tools enable students to follow state-of-the-art workflows for transparent, collaborative, and well-organized empirical research. All work will be conducted in Positron, an integrated development environment for data science.
+
+The overall goal of the course is to equip students with the practical skills and methodological confidence necessary to write an empirical bachelor thesis in political science. Beyond technical proficiency, the course emphasizes sound statistical reasoning, effective data visualization, and clear communication of empirical findings. Students will acquire hands-on experience through regular assignments and a cumulative final project.
+
+You can find the course outline [here](syllabus.qmd).

@@ -1,0 +1,125 @@
+---
+title: "Installation Guide" 
+author: Tristan Muno
+draft: true
+---
+
+# Getting started: overview
+
+## Why so many tools?
+
+This course introduces you to a range of software tools which, taken together, form a powerful and contemporary toolbox for transparent, reproducible, and scalable empirical research. Rather than relying on a single piece of software, you will learn how different tools interact and complement one another --- much like they do in real-world research workflows.
+
+## Feeling overwhelmed is normal (and expected)
+
+Encountering many tools at once can feel complex and, at times, overwhelming. This is entirely normal and an expected part of the learning process. Modern research environments evolve quickly, with new libraries, platforms, and technologies (including AI-based tools) constantly emerging. One of the central goals of this course is therefore not just to teach specific tools, but to help you develop the ability to learn how to learn programming and computational methods --- an essential and transferable skill for any data-driven career.
+
+## Tools as part of a research workflow
+
+Importantly, these tools are not only used to perform calculations or produce results. They also help you document decisions, protocol analytical steps, collaborate with others, and build workflows that can be extended, reproduced, and scaled. In this sense, the course aims to familiarize you with research practices that more closely resemble how high-quality empirical work is actually conducted.
+
+## Learning concepts, not just commands
+
+Given the scope of the course, we will inevitably only scratch the surface --- the “tip of the iceberg” --- of many of these tools. However, I will emphasize conceptual understanding: how the tools work in principle, why they are useful, and in which situations they are beneficial. This foundation is designed to enable you to work independently and confidently with these (and future) tools beyond the course.
+
+## Pragmatism over dogmatism
+
+The workflow and software stack presented here reflect my own experience and day-to-day research practice. They are not meant to be prescriptive or dogmatic. There is no single “correct” way to code or to structure an analysis, and many different approaches can lead to the same goal. Pragmatism matters: tools should serve your research questions, not the other way around.
+
+## Installation timeline
+
+This site provides an overview of all software you are expected to install for the course. While not all tools will be used in the first week, I strongly recommend installing everything as early as possible. This gives us time to troubleshoot potential issues and ensures that technical setup does not become a bottleneck once we move into substantive work.
+
+# Installing R
+
+First, you need to install **R**, a free and open-source programming language widely used for statistical analysis, data visualization, and reproducible research. R will be our main *tool* in this course—you can think of it as an engine that performs our calculations.[^rengine]
+
+[^rengine]: The engine–dashboard analogy is borrowed from [Andrew Heiss](https://datavizf25.classes.andrewheiss.com/syllabus.html#r-and-rstudio).
+
+1. Go to the [Comprehensive R Archive Network (CRAN) website](https://cran.r-project.org/)
+2. Click **“Download R for Windows”** or **“Download R for macOS”**, depending on your operating system.
+3. If you are on **Windows**, select `base` and the installation file will be downloaded automatically.  
+   If you are on **macOS**, click the latest version (4.5.2 at the time of writing this guide), choosing either:
+   - `R-4.5.2-arm64.pkg` for Apple silicon (M1/M2/M3), or  
+   - `R-4.5.2-x86_64.pkg` for older Intel-based Macs.
+4. If you are on **macOS**, please also [download and install XQuartz](https://www.xquartz.org/).  
+   For **Windows**, this step is not necessary.
+
+# Installing Positron
+
+Next, we will use **Positron** as our integrated development environment (IDE) for working with R. You can think of it as the *dashboard* for our engine (R): it provides a graphical user interface (GUI) that helps you write, run, monitor, and organize your code more effectively.
+
+Positron is a **free, source-available** IDE designed specifically for data science workflows with R and Python, built on open-source foundations.
+
+1. Navigate to the [Positron installation page](https://positron.posit.co/install.html)
+2. Make sure to install all prerequisites listed for your operating system (you can ignore the **Python setup** and **R setup** panes).
+3. Accept the license agreement by ticking the box.
+4. Click **“Download Positron for XX”** and run the downloaded file to install Positron.
+
+::: {.callout-note}
+## Why are we not using RStudio?
+
+If you have worked with R before --- or know people who have --- you may be aware that one of the most widely used IDEs for R is **RStudio**. I chose Positron for the following subjective reasons:
+
+1. It is developed by the **RStudio team**, so it is very similar to RStudio but more modern and notebook-friendly, supporting Quarto-based literate programming (you don’t need to know what this is yet).  
+2. It works seamlessly with **both R and Python**, allowing future flexibility for projects that combine both languages.  
+3. Because it is built on **VS Code**, the most widely used IDE globally, it benefits from a huge ecosystem of extensions and integrations.  
+4. It offers strong graphical integration for **version control with git**.  
+5. Overall, in my opinion, Positron provides a smoother workflow for programming, documentation, and project management, while still making it easy to transition to RStudio later if desired.
+
+:::
+
+You can find detailed guides and explanations at the [official Positron documentation](https://positron.posit.co/welcome.html).
+
+# Installing Quarto
+
+Quarto is automatically installed with Positron, so you do not need to install it separately. Quarto is a **literate programming and scientific publishing tool** that allows you to combine code, text, and visualizations in a single document. It integrates seamlessly with Positron and will be a key part of the workflows we use in this course.
+
+To check that Quarto is installed, open your terminal (PowerShell on Windows, Terminal on Mac) and type:
+
+``` bash
+quarto --version
+```
+
+You should see a version number, for example `1.8.26` for the latest version. If a version number appears, Quarto is correctly installed and ready to use.
+
+# Installing Git
+
+**Git** is a free and open source version control system --- a tool that tracks changes in your files over time, so you can easily see what’s new, go back to earlier versions, and collaborate without overwriting each other’s work. **GitHub** is an online platform that hosts Git repositories and adds powerful features for teamwork, such as pull requests, issues, and automated workflows. Together, they make it easy to write code, analyze data, and manage research projects in a transparent and reproducible way.
+
+1. Go to the [Git download page](https://git-scm.com/install/).
+2. Choose your operating system and follow the installation instructions.
+3. Check Git installation: Open your terminal (PowerShell on Windows, Terminal on Mac) and type:
+``` bash
+git --version
+```
+You should see a version number. If so, Git is installed correctly.
+
+4. Configure Git: To use Git, you need to set a **name** and **email address**. These will be associated with every change (commit) you make, acting like a digital signature. You do not need to use your full name, but it is recommended.
+``` bash
+git config --global user.name "Your Name"
+git config --global user.email "your@mail.com"
+```
+
+5. Create a GitHub account: If you don’t already have one, [create a free GitHub account here](https://github.com/join).  
+GitHub will allow you to store repositories online, collaborate with others, and track your work from anywhere.
+
+# Installing a C++ Compiler
+
+Some R packages we will use later in the course rely internally on **C++**, a much more efficient programming language for computationally intensive tasks. To make this work, R needs access to a **C++ compiler** so that it can compile and run C++ code *behind the scenes*. You will usually not interact with C++ directly, but the compiler is required for installing and using certain R packages.
+
+### Windows
+
+1. Go to the [RTools page on CRAN](https://cran.r-project.org/bin/windows/Rtools/).
+2. Download and install the **Rtools45 installer** (matching your R version).
+3. Follow the installation instructions and keep the default settings unless instructed otherwise.
+
+### macOS
+
+1. Download and install **Xcode** from the [Mac App Store](https://developer.apple.com/xcode/resources/). Alternatively, open the Terminal and run the following command to install the command-line tools:
+
+```bash
+xcode-select --install
+```
+
+Once installed, your system will be able to compile C++ code required by some R packages.
