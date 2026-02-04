@@ -1,1 +1,14 @@
 /* css styles */
+
+/* ready material: bold/dark */
+.fa.ready {
+  color: #111;        /* dark color */
+  font-weight: bold;  /* bold icon */
+  opacity: 1;         /* fully visible */
+}
+
+/* pending material: light/transparent */
+.fa.pending {
+  color: #111;       
+  opacity: 0.3;       /* lighter, semi-transparent */
+}

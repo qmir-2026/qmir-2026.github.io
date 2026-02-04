@@ -1,6 +1,5 @@
 ---
-title: QMIR 2026 Syllabus
-author: Tristan Muno
+title: Syllabus
 draft: true
 draft-mode: visible
 ---

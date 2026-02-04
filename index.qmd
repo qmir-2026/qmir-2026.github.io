@@ -1,14 +1,59 @@
 ---
-title: "QMIR 2026"
-subtitle: "University of Mannheim"
+title: "Quantitative Methods in International Relations"
+subtitle: "Learn to investigate global and European politics with real data—and build the skills to produce transparent, professional research."
+details: |
+    QMIR
 draft: true
 draft-mode: visible
 ---
 
-⚠️ This website is currently under development. Content may be incomplete and subject to change.
+Spring 2026<br> 
+Department of Political Science<br>
+School of Social Sciences<br>
+University of Mannheim
 
-Welcome to the course website of quantitative methods in international relations 2026!
 
-You can find the course outline [here](syllabus.qmd).
 
-This website is still under development.
+::: {.home}
+
+:::: {.grid .course-details}
+
+::: {.g-col-12 .g-col-md-4}
+
+### Instructor
+
+- {{< fa user >}} Tristan Muno
+- {{< fa university >}} A 5, 6 -- Room A 351
+- {{< fa envelope >}} [tristan.muno@uni-mannheim.de](mailto:tristan.muno@uni-mannheim.de)
+:::
+
+::: {.g-col-12 .g-col-md-4}
+
+
+### Course details
+
+| |  |  |
+|:-|------------:|------------:|
+| {{< fa calendar >}} | Monday | Thursday |
+| {{< fa calendar-alt >}} | Feb 9 -- May 18 | Feb 12 -- May 28 | 
+| {{< fa clock >}} | 12:00 -- 13:30 | 17:15 -- 18:45 |
+| {{< fa location-dot >}} | [A5,6 C-108](https://portal2.uni-mannheim.de/portal2/pages/cm/exa/searchRoomDetail.xhtml?_flowId=searchRoom-flow&_flowExecutionKey=e5s6) | [A5,6 C-108](https://portal2.uni-mannheim.de/portal2/pages/cm/exa/searchRoomDetail.xhtml?_flowId=searchRoom-flow&_flowExecutionKey=e5s6) |
+| {{< fa ban >}} | March 30, April 6, May 25  | April 2, April 9, May 14  |
+
+:::
+
+::: {.g-col-12 .g-col-md-4}
+
+### Contacting me
+
+- {{< fa calendar-check >}} Monday after class: Open office consultation (no appointment needed)
+
+- You are welcome to stop by on Mondays after class for open consultation.  
+
+- For other times, please email me to arrange an appointment (in person or online). I usually (try to) reply within 24 hours.
+
+:::
+
+::::
+
+:::
