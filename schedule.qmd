@@ -20,9 +20,9 @@ Here's your roadmap for the semester!
 
 | Week | Topic | Monday | Thursday | Slides | Excercise | Homework | Readings |
 |:----:|:-----|:------|:--------|:------:|:---:|:------:|:------:|
-| 1    | Introduction and Course Organization  | Feb 09  | Feb 12  | [{{< fa chalkboard >}}]{style="color: lightgray"} | [{{< fa code >}}]{style="color: lightgray"}  | [{{< fa laptop-code >}}]{style="color: lightgray"} | [{{< fa book class="pending" >}}]{style="color: lightgray"} |
+| 1    | Welcome & Course Roadmap  | Feb 09  | Feb 12  | [{{< fa chalkboard >}}]{style="color: lightgray"} | [{{< fa code >}}]{style="color: lightgray"}  | [{{< fa laptop-code >}}]{style="color: lightgray"} | [{{< fa book class="pending" >}}]{style="color: lightgray"} |
 
-#### Block I: Programming Fundamentals
+#### Block I: Scientific Programming Fundamentals
 
 | Week | Topic | Monday | Thursday | Slides | Excercise | Homework | Readings |
 |:----:|:-----|:------|:--------|:------:|:---:|:------:|:------:|
@@ -31,7 +31,7 @@ Here's your roadmap for the semester!
 | 4    | R 2    | Mar 02 | Mar 05 | [{{< fa chalkboard >}}]{style="color: lightgray"} | [{{< fa code >}}]{style="color: lightgray"}  | [{{< fa laptop-code >}}]{style="color: lightgray"} | [{{< fa book class="pending" >}}]{style="color: lightgray"} |
 | 5    | R 3    | Mar 09 | Mar 12 | [{{< fa chalkboard >}}]{style="color: lightgray"} | [{{< fa code >}}]{style="color: lightgray"}  | [{{< fa laptop-code >}}]{style="color: lightgray"} | [{{< fa book class="pending" >}}]{style="color: lightgray"} |
 
-#### Block II: The Logic of Bayesian Scientific Inference
+#### Block II: The Logic of Bayesian Inference
 
 | Week | Topic | Monday | Thursday | Slides | Excercise | Homework | Readings |
 |:----:|:-----|:------|:--------|:------:|:----:|:------:|:------:|

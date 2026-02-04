@@ -3,6 +3,7 @@ title: "Getting Started: Installation Guide"
 draft: true
 draft-mode: visible
 toc-depth: 2
+toc: true
 ---
 
 ### Why so many tools?
@@ -174,6 +175,39 @@ We will use GitHub to distribute course materials.
 
 # Installing the `tinytex` package
 
+**What it is:** `tinytex` is an R package that manages a lightweight LaTeX distribution for you. LaTeX is the system Quarto uses to produce **PDF documents** from your code and text.
+
+**Why we use it:** You won’t need to manually install a full LaTeX distribution. `tinytex` allows you to compile PDF reports directly from R/Quarto with minimal setup.
+
+**How to install:**
+
+```r
+install.packages("tinytex")
+tinytex::install_tinytex()
+```
+
+This will install both the package and a minimal LaTeX distribution. Once done, you can render PDFs from Quarto without further setup.
+
 # Installing the `tidyverse` package
 
+**What it is:** The tidyverse is a collection of R packages for data manipulation, visualization, and analysis, including dplyr, ggplot2, tidyr, readr, and more.
+
+**Why we use it:** These packages form a consistent framework to clean, explore, and visualize your data, which is essential for reproducible research workflows.
+
+**How to install:**
+
+```r
+install.packages("tidyverse")
+```
+
 # Installing the `brms` package
+
+**What it is:** brms is an R package for Bayesian regression modeling. It provides a user-friendly interface to Stan, a powerful engine for fitting complex statistical models using computational probabilistic simulation.
+
+**Why we use it:** In this course, brms will allow us to fit Bayesian models for empirical research, including multilevel and regression analyses, without writing Stan code directly.
+
+**How to install:**
+
+```r
+install.packages("brms")
+```

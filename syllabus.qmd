@@ -4,6 +4,77 @@ draft: true
 draft-mode: visible
 ---
 
+## Course Description
+
+This course introduces students to quantitative research methods in international relations and European integration using modern tools for scientific programming and reproducible research. Students will learn how to analyze and visualize data in R, document their work using Quarto, and manage their projects efficiently using Git and GitHub. These tools enable students to follow state-of-the-art workflows for transparent, collaborative, and well-organized empirical research. All work will be conducted in Positron, an integrated development environment for data science.
+
+## Course Objectives
+
+The overall goal of the course is to equip students with the practical skills and methodological confidence necessary to write an empirical bachelor thesis in political science. Students will learn how to preprocess data, select and implement appropriate statistical models for continuous and binary outcomes, compute quantities of interest, and interpret results accurately. Beyond technical proficiency, the course emphasizes sound statistical reasoning, effective data visualization, and the clear communication of empirical findings in a way that is accessible to nontechnical audiences. Through regular assignments and a cumulative final project (take-home exam), students will develop the ability to critically evaluate statistical claims in both academic research and public discourse, providing a solid foundation for conducting their own empirical analyses.
+
+## Course Logistics
+
+### General Information
+
+Each session consists of an instructor-led lecture on concepts and theory, followed by hands-on exercises. Homework is assigned at the end of class and due one week later. Readings provide background, theory, and context for the session. Because homework deadlines are tied to class days, students should remain in their assigned group (Mon or Thu) as their main class. Attending the other day is allowed in case of sickness or other exceptions, but this should remain the exception rather than the norm.
+
+### Language and Software Policy
+
+The course is taught entirely in English and focuses on using R, Quarto, and Git/GitHub for data analysis, reproducible research, and project management. Students are encouraged to work with these tools, as the course exercises and workflows are designed around them. For the take-home exam, students may use other script-based languages (e.g., Python or Stata), but this is not recommended, and no guidance will be provided for non-R workflows. The emphasis is on understanding the tools, practicing them, and learning how to independently find solutions.
+
+### Attendance Policy
+
+### Hardware
+
+### Software
+
+### Optional Practice Materials
+
+### Grading Policy
+
+### Late Work Policy
+
+### AI Policy
+
+All submissions will be checked for plagiarism, and violations of the code of conduct may result in failing the course or expulsion. While generative AI tools, such as ChatGPT or Gemini, are permitted for the final examination, any AI-generated content or code must be clearly highlighted, thoroughly commented, and accompanied by the chat history to demonstrate understanding. I will occasionally provide guidance on using AI responsibly, but relying on it from the start can hinder learning; [research shows AI is most effective for those who already understand the topic](https://arxiv.org/abs/2306.03102). For a detailed explanation of why AI can undermine learning, see [this explanation by Andrew Heiss](https://governancef25.classes.andrewheiss.com/syllabus.html#ai-large-language-models-and-bullshit).
+
+### Mental Health Support
+
+Life and learning at the University of Mannheim can sometimes feel complicated, challenging, or even overwhelming. This is completely normal. You are not expected to fully understand—or memorize—course content on the first attempt. If you ever feel mentally or emotionally strained, you may find helpful advice on the [University of Mannheim's Good Mental Health and Studying page](https://www.uni-mannheim.de/en/academics/studying-the-healthy-way/good-mental-health/). Additionally, the [Help in Times of Crises page](https://www.uni-mannheim.de/en/academics/studying-the-healthy-way/help-in-times-of-crisis/) provides an overview of the various counseling and support services available at the university.
+
+
+### Session 1
+
+**Overview:**  
+{Brief description of the session content, context, and purpose.}
+
+
+## Learning Goals
+
+- **Conceptual / Theoretical**
+    - {Describe the main ideas, principles, or concepts introduced in this session}
+- **Computational / Practical**
+    - {Skills, exercises, or tasks students will practice}
+- **Reproducible / Workflow**
+    - {Workflow elements like Quarto features, Git/GitHub, data organization, rendering, etc.}
+
+
+## Session Notes / Activities
+
+- **Lecture / Demo:**  
+    - {Brief bullet points of what you will present or demonstrate}
+
+- **Hands-on Exercises / Lab:**  
+    - {Bullet points of exercises, steps, or coding practice}
+
+- **Homework / Assignments:**  
+    - {Tasks assigned for this session, linked to exercises or readings}
+
+- **Readings / References:**  
+    - {Optional references or materials that provide context or background}
+
+
+
 ## Session 1: Quantitative Research as Inference Under Uncertainty
 
 **Dates:**
