@@ -1,6 +1,6 @@
 ---
 title: "Getting Started: Installation Guide"
-draft: true
+draft: false
 draft-mode: visible
 toc-depth: 2
 toc: true
