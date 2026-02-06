@@ -1,44 +1,156 @@
 [
   {
-    "objectID": "ideas.html",
-    "href": "ideas.html",
-    "title": "Idea collection",
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Syllabus",
     "section": "",
-    "text": "week getting-to-know-each-other-survey questions\n\nWhich tools have you used for writing?\nWhich tools have you used for quantitative analyses?\nFor each software tool, indicate how much or not you are familiar with it\n\nMS Word\nMS Excel\nStata\nLateX\nR\nMarkdown\nGit\nQuarto\nGitHub\nPython\nStan\n# Pre-Course Survey: Background, Experience, and Scientific Reasoning"
+    "text": "This course introduces students to quantitative research methods in international relations and European integration using modern tools for scientific programming and reproducible research. Students will learn how to analyze and visualize data in R, document their work using Quarto, and manage their projects efficiently using Git and GitHub. These tools enable students to follow state-of-the-art workflows for transparent, collaborative, and well-organized empirical research. All work will be conducted in Positron, an integrated development environment for data science."
   },
   {
-    "objectID": "ideas.html#warm-up-background",
-    "href": "ideas.html#warm-up-background",
-    "title": "Idea collection",
-    "section": "Warm-Up & Background",
-    "text": "Warm-Up & Background\n\nW1. What is your primary field of study (major)?\n(Short text)\nW2. Do you have a secondary field of study (minor)?\n(Short text or “None”)\nW3. Which semester of your Bachelor’s program are you currently in?\n(Single choice)\n\n3rd semester\n\n4th semester\n\n5th semester\n\n6th semester\n\nOther / extended program\n\nW4. Have you taken a quantitative methods or statistics course before?\n(Single choice)\n\nNo\n\nYes, one course\n\nYes, more than one course\n\n\nW5. Why did you register for this class?\n(Multiple choice — pick all that apply 😎)\n\nMy degree says I have to (mandatory course)\n\nMy degree says I should take something like this (elective)\n\nI’m here voluntarily — I actually want to learn quantitative methods\n\nI optimized my schedule and this was the least painful option\n\nI heard the professor is cool / the class is fun\n\nI was curious and just decided to give it a shot\nW6. Which statement best describes how you feel about quantitative methods right now?\n(Single choice)\n\nCurious and motivated\n\nNeutral\n\nSlightly nervous\n\nVery nervous\n\nActively avoiding thinking about it 😅"
+    "objectID": "syllabus.html#course-description",
+    "href": "syllabus.html#course-description",
+    "title": "Syllabus",
+    "section": "",
+    "text": "This course introduces students to quantitative research methods in international relations and European integration using modern tools for scientific programming and reproducible research. Students will learn how to analyze and visualize data in R, document their work using Quarto, and manage their projects efficiently using Git and GitHub. These tools enable students to follow state-of-the-art workflows for transparent, collaborative, and well-organized empirical research. All work will be conducted in Positron, an integrated development environment for data science."
   },
   {
-    "objectID": "ideas.html#section-a-technical-experience-tools",
-    "href": "ideas.html#section-a-technical-experience-tools",
-    "title": "Idea collection",
-    "section": "Section A — Technical Experience & Tools",
-    "text": "Section A — Technical Experience & Tools\n\nA1. Which of the following tools have you heard of before?\n(Multiple selection)\n\nR\n\nRStudio / Positron\n\nQuarto / R Markdown\n\nGit\n\nGitHub\n\nPython\n\nStata\n\nSPSS\n\nExcel (advanced use beyond basic spreadsheets)\n\nLaTeX\n\nCommand line / terminal\n\nA2. Which of the following tools have you actively worked with before?\n(Multiple selection)\n\nR\n\nRStudio / Positron\n\nQuarto / R Markdown\n\nGit\n\nGitHub\n\nPython\n\nStata\n\nSPSS\n\nExcel\n\nLaTeX\n\nCommand line / terminal\n\nNone of the above\n\nA3. How would you describe your overall confidence in working with code?\n(Single choice)\n\nVery low – I find code intimidating\n\nLow – I can follow examples but struggle independently\n\nMedium – I can modify existing code and troubleshoot basic issues\n\nHigh – I can write code for my own analyses\n\nVery high – I regularly work with code-based projects"
+    "objectID": "syllabus.html#course-objectives",
+    "href": "syllabus.html#course-objectives",
+    "title": "Syllabus",
+    "section": "Course Objectives",
+    "text": "Course Objectives\nThe overall goal of the course is to equip students with the practical skills and methodological confidence necessary to write an empirical bachelor thesis in political science. Students will learn how to preprocess data, select and implement appropriate statistical models for continuous and binary outcomes, compute quantities of interest, and interpret results accurately. Beyond technical proficiency, the course emphasizes sound statistical reasoning, effective data visualization, and the clear communication of empirical findings in a way that is accessible to nontechnical audiences. Through regular assignments and a cumulative final project (take-home exam), students will develop the ability to critically evaluate statistical claims in both academic research and public discourse, providing a solid foundation for conducting their own empirical analyses."
   },
   {
-    "objectID": "ideas.html#section-b-scientific-reasoning-inference",
-    "href": "ideas.html#section-b-scientific-reasoning-inference",
-    "title": "Idea collection",
-    "section": "Section B — Scientific Reasoning & Inference",
-    "text": "Section B — Scientific Reasoning & Inference\n\nB1. Please indicate how much you agree or disagree with the following statements:\n(Likert scale: strongly disagree → strongly agree)\n\nStatistical analysis is mainly about determining whether a hypothesis is true or false.\n\nEmpirical data can increase or decrease our confidence in a theoretical claim.\n\nUncertainty should be explicitly reported when presenting empirical results.\n\nScientific knowledge is always provisional and subject to revision with new data.\n\nA single statistical result can definitively prove or disprove a theory.\n\nModels are simplifications of reality rather than exact representations.\n\nB2. When you see a numerical result in a paper (e.g., an estimate or coefficient), what are you usually most interested in?\n(Select up to two)\n\nWhether it is “statistically significant”\n\nThe size of the effect\n\nThe uncertainty around the estimate\n\nWhether the result fits the theory\n\nWhether the model assumptions seem plausible\n\nI am usually unsure how to interpret such results"
+    "objectID": "syllabus.html#course-logistics",
+    "href": "syllabus.html#course-logistics",
+    "title": "Syllabus",
+    "section": "Course Logistics",
+    "text": "Course Logistics\n\nGeneral Information\nEach session consists of an instructor-led lecture on concepts and theory, followed by hands-on exercises. Homework is assigned at the end of class and due one week later. Readings provide background, theory, and context for the session. Because homework deadlines are tied to class days, students should remain in their assigned group (Mon or Thu) as their main class. Attending the other day is allowed in case of sickness or other exceptions, but this should remain the exception rather than the norm.\n\n\nAttendance Policy\nActive participation (Mitarbeit) is a required component of the coursework (Studienleistung). This course consists of 13 class sessions. Successful participation is presumed if a student attends at least 80% of class sessions (at least 11 out of 13 sessions).\nIf attendance falls below 80% but remains at or above 60% (8–10 out of 13 sessions), successful participation is not presumed; in such cases, the possibility of fulfilling the participation requirement will be assessed on a case-by-case basis.\nIf attendance falls below 60% (fewer than 8 out of 13 sessions), successful participation is normally considered impossible under the examination regulations.\nIf class sessions are cancelled during the semester, the absolute number of required sessions will be adjusted accordingly while the percentage thresholds (80% and 60%) remain unchanged.\n\n\nGrading Policy\nAccording to the examination regulations, course assessment consists of coursework (Studienleistung, pass/fail) and a final examination (Prüfungsleistung, graded).\nSuccessful completion of all coursework requirements is a prerequisite for admission to the final take-home exam.\n\nCoursework (Studienleistung, pass/fail)\nCoursework consists of two components:\n1. Weekly Homework Assignments\nStarting in Week 2 (no homework will be assigned in the final week of the semester), students must complete 11 weekly homework assignments. Assignments will be distributed via GitHub and assessed on a pass/fail basis.\nTo fulfill this requirement, students must pass at least 80% of the assignments (9 out of 11 homeworks). Homework must demonstrate a serious and complete attempt at solving the tasks. Submissions that are empty or clearly insufficient will not be counted as passed.\n2. Active Participation (Mitarbeit)\nActive participation, as described in the Attendance Policy, is a required coursework component and will be assessed on a pass/fail basis.\nBoth components must be passed in order to fulfill the Studienleistung requirement.\n\n\nFinal Examination (Prüfungsleistung, graded)\nThe final examination consists of a take-home exam, currently scheduled for:\nMay 28, 19:00 — June 05, 23:59\nThe exam will be distributed via GitHub. You will receive a dataset and a problem description for a cumulative data analysis project.\nYou must submit a complete project repository (project folder) via GitHub. The repository must include:\n\nFully documented and reproducible code\n\nA rendered PDF file presenting your results (structured similarly to a data, methods, and analysis section of a research paper)\n\nAll relevant LLM chat history(ies), if AI tools were used\nA statutory declaration according to the University’s guidelines\n\nThe version of the repository available on GitHub at the moment the deadline passes will be evaluated.\nThe take-home exam will be graded according to the university grading scale (1.0 = very good to 5.0 = insufficient) and determines the overall course grade.\nAll tools and workflows necessary to complete the exam will be taught during the course.\n\n\n\nLanguage and Software Policy\nThe course is taught entirely in English and focuses on using R, Quarto, and Git/GitHub for data analysis, reproducible research, and project management. Students are encouraged to work with these tools, as the course exercises and workflows are designed around them. For the take-home exam, students may use other script-based languages (e.g., Python or Stata), but this is not recommended, and no guidance will be provided for non-R workflows. The emphasis is on understanding the tools, practicing them, and learning how to independently find solutions.\n\n\nHardware\nYou are required to have a computer available during class. For the purposes of this course, a standard laptop is sufficient; there are no specific requirements regarding RAM, external GPUs, or other advanced hardware components.\nIf you do not own a suitable device, the University of Mannheim’s IT department offers a laptop rental service. Students are encouraged to make use of this option if needed.\n\n\nSoftware\nPlease install all required software programs and tools following the separate installation guide before the first session, so we can address any potential issues on that day and fully start the programming part in the subsequent lecture.\n\n\nOptional Practice Materials\nIt is highly recommended that you take advantage of the access to DataCamp provided by this course. DataCamp is an online learning platform offering valuable opportunities to practice the material covered in this course and beyond. A good starting point is the Introduction to R tutorial. DataCamp courses are voluntary and not part of the mandatory requirements to pass the course.\n\n\nLate Work Policy\nLate submissions will not be accepted. If you anticipate any difficulties in meeting a deadline, you must discuss this issue with me before the deadline, not after.\n\n\nAI Policy\nAll submissions will be checked for plagiarism, and violations of the code of conduct may result in failing the course or expulsion. While generative AI tools, such as ChatGPT or Gemini, are permitted for the final examination, any AI-generated content or code must be clearly highlighted, thoroughly commented, and accompanied by the chat history to demonstrate understanding. I will (try to) occasionally provide guidance on using AI responsibly, but relying on it from the start can hinder learning: research shows AI is most effective for those who already understand the topic. For a detailed explanation of why AI can undermine learning, see this explanation by Andrew Heiss.\n\n\nMental Health Support\nLife and learning at the University of Mannheim can sometimes feel complicated, challenging, or even overwhelming. This is completely normal. You are not expected to fully understand—or memorize—course content on the first attempt. If you ever feel mentally or emotionally strained, you may find helpful advice on the University of Mannheim’s Good Mental Health and Studying page. Additionally, the Help in Times of Crises page provides an overview of the various counseling and support services available at the university."
   },
   {
-    "objectID": "ideas.html#section-c-modeling-data-analysis-experience",
-    "href": "ideas.html#section-c-modeling-data-analysis-experience",
-    "title": "Idea collection",
-    "section": "Section C — Modeling & Data Analysis Experience",
-    "text": "Section C — Modeling & Data Analysis Experience\n\nC1. Which of the following methods or analyses have you heard of?\n(Multiple selection)\n\nDescriptive statistics\nCorrelation analysis\n\nLinear regression\n\nMultivariate regression\n\nLogistic regression\n\nInteraction effects\n\nPanel data / fixed effects\n\nMultilevel / mixed-effects models\n\nCausal diagrams (DAGs)\n\nSimulation / Monte Carlo methods\n\nC2. Which of the following have you actively applied yourself (e.g., in assignments, term papers, or projects)?\n(Multiple selection)\n\nDescriptive statistics\nCorrelation analysis\n\nLinear regression\n\nMultivariate regression\n\nLogistic regression\n\nInteraction effects\n\nPanel data / fixed effects\n\nMultilevel / mixed-effects models\n\nCausal diagrams (DAGs)\n\nSimulation / Monte Carlo methods\n\nNone of the above\n\nC3. In previous coursework, data analysis was mostly…\n(Single choice)\n\nInterpreting outputs produced by others\n\nFollowing step-by-step instructions\n\nApplying methods to my own research questions\n\nDesigning and executing a full analysis independently"
+    "objectID": "ressources/13_resources.html",
+    "href": "ressources/13_resources.html",
+    "title": "Week 13 Readings",
+    "section": "",
+    "text": "McElreath, Richard. 2020. Statistical Rbethinking: A Bayesian Course with Examples in r and STAN. 2nd ed. Chapman; Hall/CRC. https://doi.org/10.1201/9780429029608."
   },
   {
-    "objectID": "ideas.html#optional-reflection",
-    "href": "ideas.html#optional-reflection",
-    "title": "Idea collection",
-    "section": "Optional Reflection",
-    "text": "Optional Reflection\n\nD1. Is there anything you are particularly confident about or particularly anxious about regarding quantitative methods?\n(Short text)"
+    "objectID": "ressources/11_resources.html",
+    "href": "ressources/11_resources.html",
+    "title": "Week 11 Readings",
+    "section": "",
+    "text": "McElreath, Richard. 2020. Statistical Rbethinking: A Bayesian Course with Examples in r and STAN. 2nd ed. Chapman; Hall/CRC. https://doi.org/10.1201/9780429029608."
+  },
+  {
+    "objectID": "ressources/09_resources.html",
+    "href": "ressources/09_resources.html",
+    "title": "Week 9 Readings",
+    "section": "",
+    "text": "McElreath, Richard. 2020. Statistical Rbethinking: A Bayesian Course with Examples in r and STAN. 2nd ed. Chapman; Hall/CRC. https://doi.org/10.1201/9780429029608."
+  },
+  {
+    "objectID": "ressources/07_resources.html",
+    "href": "ressources/07_resources.html",
+    "title": "Week 7 Readings",
+    "section": "",
+    "text": "McElreath, Richard. 2020. Statistical Rbethinking: A Bayesian Course with Examples in r and STAN. 2nd ed. Chapman; Hall/CRC. https://doi.org/10.1201/9780429029608."
+  },
+  {
+    "objectID": "ressources/05_resources.html",
+    "href": "ressources/05_resources.html",
+    "title": "Week 5 Readings",
+    "section": "",
+    "text": "McElreath, Richard. 2020. Statistical Rbethinking: A Bayesian Course with Examples in r and STAN. 2nd ed. Chapman; Hall/CRC. https://doi.org/10.1201/9780429029608."
+  },
+  {
+    "objectID": "ressources/03_resources.html",
+    "href": "ressources/03_resources.html",
+    "title": "Week 3 Readings",
+    "section": "",
+    "text": "McElreath, Richard. 2020. Statistical Rbethinking: A Bayesian Course with Examples in r and STAN. 2nd ed. Chapman; Hall/CRC. https://doi.org/10.1201/9780429029608."
+  },
+  {
+    "objectID": "ressources/01_resources.html",
+    "href": "ressources/01_resources.html",
+    "title": "Week 1 Readings",
+    "section": "",
+    "text": "McElreath, Richard. 2020. Statistical Rbethinking: A Bayesian Course with Examples in r and STAN. 2nd ed. Chapman; Hall/CRC. https://doi.org/10.1201/9780429029608."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Quantitative Methods in International Relations",
+    "section": "",
+    "text": "Spring 2026 Department of Political Science School of Social Sciences University of Mannheim\n\n\n\nInstructor\n\n Tristan Muno\n A 5, 6 – Room A 351\n tristan.muno@uni-mannheim.de\n\n\n\nCourse details\n\n\n\n\nMonday\nThursday\n\n\n\nFeb 9 – May 18\nFeb 12 – May 28\n\n\n\n12:00 – 13:30\n17:15 – 18:45\n\n\n\nA5,6 C-108\nA5,6 C-108\n\n\n\nMarch 30, April 6, May 25\nApril 2, April 9, May 14\n\n\n\n\n\nContacting me\n\n Monday after class: Open office consultation (no appointment needed)\nYou are welcome to stop by on Mondays after class for open consultation.\nFor other times, please email me to arrange an appointment (in person or online). I usually (try to) reply within 24 hours."
+  },
+  {
+    "objectID": "installation.html",
+    "href": "installation.html",
+    "title": "Getting Started: Installation Guide",
+    "section": "",
+    "text": "This course introduces you to a range of software tools which, taken together, form a powerful and contemporary toolbox for transparent, reproducible, and scalable empirical research. Rather than relying on a single piece of software, you will learn how different tools interact and complement one another — much like they do in real-world research workflows."
+  },
+  {
+    "objectID": "installation.html#configure-git",
+    "href": "installation.html#configure-git",
+    "title": "Getting Started: Installation Guide",
+    "section": "Configure Git",
+    "text": "Configure Git\nTo use Git, you need to set a name and email address. These will be associated with every change (commit) you make, acting like a digital signature. You do not need to use your full name, but it is recommended.\ngit config --global user.name \"Your Name\"\ngit config --global user.email \"your@mail.com\""
+  },
+  {
+    "objectID": "installation.html#create-a-github-account",
+    "href": "installation.html#create-a-github-account",
+    "title": "Getting Started: Installation Guide",
+    "section": "Create a GitHub account",
+    "text": "Create a GitHub account\nIf you don’t already have one, create a free GitHub account here.\nGitHub will allow you to store repositories online, collaborate with others, and track your work from anywhere. We will use GitHub to distribute course materials."
+  },
+  {
+    "objectID": "installation.html#footnotes",
+    "href": "installation.html#footnotes",
+    "title": "Getting Started: Installation Guide",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThe engine-dashboard-analogy is borrowed from Andrew Heiss.↩︎"
+  },
+  {
+    "objectID": "ressources/04_resources.html",
+    "href": "ressources/04_resources.html",
+    "title": "Week 4 Readings",
+    "section": "",
+    "text": "McElreath, Richard. 2020. Statistical Rbethinking: A Bayesian Course with Examples in r and STAN. 2nd ed. Chapman; Hall/CRC. https://doi.org/10.1201/9780429029608."
+  },
+  {
+    "objectID": "ressources/06_resources.html",
+    "href": "ressources/06_resources.html",
+    "title": "Week 6 Readings",
+    "section": "",
+    "text": "McElreath, Richard. 2020. Statistical Rbethinking: A Bayesian Course with Examples in r and STAN. 2nd ed. Chapman; Hall/CRC. https://doi.org/10.1201/9780429029608."
+  },
+  {
+    "objectID": "ressources/08_resources.html",
+    "href": "ressources/08_resources.html",
+    "title": "Week 8 Readings",
+    "section": "",
+    "text": "McElreath, Richard. 2020. Statistical Rbethinking: A Bayesian Course with Examples in r and STAN. 2nd ed. Chapman; Hall/CRC. https://doi.org/10.1201/9780429029608."
+  },
+  {
+    "objectID": "ressources/10_resources.html",
+    "href": "ressources/10_resources.html",
+    "title": "Week 10 Readings",
+    "section": "",
+    "text": "McElreath, Richard. 2020. Statistical Rbethinking: A Bayesian Course with Examples in r and STAN. 2nd ed. Chapman; Hall/CRC. https://doi.org/10.1201/9780429029608."
+  },
+  {
+    "objectID": "ressources/12_resources.html",
+    "href": "ressources/12_resources.html",
+    "title": "Week 12 Readings",
+    "section": "",
+    "text": "McElreath, Richard. 2020. Statistical Rbethinking: A Bayesian Course with Examples in r and STAN. 2nd ed. Chapman; Hall/CRC. https://doi.org/10.1201/9780429029608."
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Here’s your roadmap for the semester!\n\nClass\n\n Instructor-led lecture: concepts, theory and foundations.\n Hands-on exercises with guidance.\n\nHomework ()\n\nAssigned at the end of class.\nDue 7 days later (Mon → next Mon 13:30,Thu → next Thu 18:45)\n\nAdditional resources ()\n\nFurther readings and online learning resources\n\n\n\nSemester Schedule\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nTopic\nMonday\nThursday\nSlides\nExcercise\nHomework\nRessources\n\n\n\n\n1\nCourse Roadmap & Research Workflow\nFeb 09\nFeb 12\n\n\n\n\n\n\n\n\nBlock I: Scientific Programming Fundamentals\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nTopic\nMonday\nThursday\nSlides\nExcercise\nHomework\nRessources\n\n\n\n\n2\nReproducible Research with R, Quarto & Git\nFeb 16\nFeb 19\n\n\n\n\n\n\n3\nR Fundamentals: Data Types & Structures\nFeb 23\nFeb 26\n\n\n\n\n\n\n4\nTidy Data: Wrangling & Visualization\nMar 02\nMar 05\n\n\n\n\n\n\n5\nReshaping & Merging Data\nMar 09\nMar 12\n\n\n\n\n\n\n\n\n\nBlock II: The Logic of Bayesian Inference\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nTopic\nMonday\nThursday\nSlides\nExcercise\nHomework\nRessources\n\n\n\n\n6\nProbability, Simulation & Bayes’ Theorem\nMar 16\nMar 19\n\n\n\n\n\n\n7\nBayesian Inference & MCMC\nMar 23\nMar 26\n\n\n\n\n\n\n\n\n\nBlock III: Applied Data Analysis\n\n\n\n\n\n\n\n\n\n\n\n\n\nWeek\nTopic\nMonday\nThursday\nSlides\nExcercise\nHomework\nRessources\n\n\n\n\n8\nBivariate Linear Regression\nApr 13\nApr 16\n\n\n\n\n\n\n9\nMultivariate Regression & Interactions\nApr 20\nApr 23\n\n\n\n\n\n\n10\nModeling Binary Outcomes\nApr 27\nApr 30\n\n\n\n\n\n\n11\nFixed Effects & Within-Unit Inference\nMay 04\nMay 07\n\n\n\n\n\n\n12\nMultilevel Models & Partial Pooling\nMay 11\nMay 21\n\n\n\n\n\n\n13\nBeyond the Course: Applying What You’ve Learned\nMay 18\nMay 28\n\n\n\n\n\n\n14\nTake Home Exam\nMay 28 19:00 – June 05 23:59\nMay 28 19:00 – June 05 23:59"
   }
 ]

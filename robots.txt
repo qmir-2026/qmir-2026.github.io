@@ -1,1 +1,1 @@
-Sitemap: https://qmir-2026.github.io/qmir-2026-website/sitemap.xml
+Sitemap: https://qmir-2026.github.io/sitemap.xml
