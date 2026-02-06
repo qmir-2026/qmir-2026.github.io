@@ -97,7 +97,7 @@ Late submissions will not be accepted. If you anticipate any difficulties in mee
 
 ### AI Policy
 
-All submissions will be checked for plagiarism, and violations of the code of conduct may result in failing the course or expulsion. While generative AI tools, such as ChatGPT or Gemini, are permitted for the final examination, any AI-generated content or code must be clearly highlighted, thoroughly commented, and accompanied by the chat history to demonstrate understanding. I will occasionally provide guidance on using AI responsibly, but relying on it from the start can hinder learning; [research shows AI is most effective for those who already understand the topic](https://arxiv.org/abs/2306.03102). For a detailed explanation of why AI can undermine learning, see [this explanation by Andrew Heiss](https://governancef25.classes.andrewheiss.com/syllabus.html#ai-large-language-models-and-bullshit).
+All submissions will be checked for plagiarism, and violations of the code of conduct may result in failing the course or expulsion. While generative AI tools, such as ChatGPT or Gemini, are permitted for the final examination, any AI-generated content or code must be clearly highlighted, thoroughly commented, and accompanied by the chat history to demonstrate understanding. I will (try to) occasionally provide guidance on using AI responsibly, but relying on it from the start can hinder learning; [research shows AI is most effective for those who already understand the topic](https://arxiv.org/abs/2306.03102). For a detailed explanation of why AI can undermine learning, see [this explanation by Andrew Heiss](https://governancef25.classes.andrewheiss.com/syllabus.html#ai-large-language-models-and-bullshit).
 
 ### Mental Health Support
 
