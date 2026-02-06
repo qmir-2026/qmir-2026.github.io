@@ -12,40 +12,40 @@ Here's your roadmap for the semester!
 - Homework ({{< fa laptop-code >}})
     - Assigned at the end of class.
     - Due 7 days later (Mon → next Mon 13:30,Thu → next Thu 18:45)
-- Readings ({{< fa book >}})
-    - Provide background, theory, and context for the session.
+- Additional resources ({{< fa book >}})
+    - Further readings and online learning resources
 
 
 ### Semester Schedule
 
 | Week | Topic | Monday | Thursday | Slides | Excercise | Homework | Ressources |
 |:----:|:-----|:------|:--------|:------:|:---:|:------:|:------:|
-| 1    | Course Roadmap & Research Workflow | Feb 09  | Feb 12  | [{{< fa chalkboard >}}]{style="color: lightgray"} | [{{< fa code >}}]{style="color: lightgray"}  | [{{< fa laptop-code >}}]{style="color: lightgray"} | [<i class="fa fa-book" style="color: black; font-weight: bold;"></i>](readings/01_resources.html) |
+| 1    | Course Roadmap & Research Workflow | Feb 09  | Feb 12  | [{{< fa chalkboard >}}]{style="color: lightgray"} | [{{< fa code >}}]{style="color: lightgray"}  | [{{< fa laptop-code >}}]{style="color: lightgray"} | <i class="fa fa-book" style="color: lightgray; font-weight: bold;"></i> |
 
 #### Block I: Scientific Programming Fundamentals
 
 | Week | Topic | Monday | Thursday | Slides | Excercise | Homework | Ressources |
 |:----:|:------|:------|:--------|:------:|:---:|:------:|:------:|
-| 2    | Reproducible Research with R, Quarto & Git | Feb 16 | Feb 19 | [{{< fa chalkboard >}}]{style="color: lightgray"} | [{{< fa code >}}]{style="color: lightgray"}  | [{{< fa laptop-code >}}]{style="color: lightgray"} | [<i class="fa fa-book" style="color: black; font-weight: bold;"></i>](readings/02_resources.html) |
-| 3    | R Fundamentals: Data Types & Structures | Feb 23 | Feb 26 | [{{< fa chalkboard >}}]{style="color: lightgray"} | [{{< fa code >}}]{style="color: lightgray"}  | [{{< fa laptop-code >}}]{style="color: lightgray"} | [<i class="fa fa-book" style="color: black; font-weight: bold;"></i>](readings/03_resources.html) |
-| 4    | Tidy Data: Wrangling & Visualization | Mar 02 | Mar 05 | [{{< fa chalkboard >}}]{style="color: lightgray"} | [{{< fa code >}}]{style="color: lightgray"}  | [{{< fa laptop-code >}}]{style="color: lightgray"} | [<i class="fa fa-book" style="color: black; font-weight: bold;"></i>](readings/04_resources.html) |
-| 5    | Reshaping & Merging Data | Mar 09 | Mar 12 | [{{< fa chalkboard >}}]{style="color: lightgray"} | [{{< fa code >}}]{style="color: lightgray"}  | [{{< fa laptop-code >}}]{style="color: lightgray"} | [<i class="fa fa-book" style="color: black; font-weight: bold;"></i>](readings/05_resources.html) |
+| 2    | Reproducible Research with R, Quarto & Git | Feb 16 | Feb 19 | [{{< fa chalkboard >}}]{style="color: lightgray"} | [{{< fa code >}}]{style="color: lightgray"}  | [{{< fa laptop-code >}}]{style="color: lightgray"} | <i class="fa fa-book" style="color: lightgray; font-weight: bold;"></i> |
+| 3    | R Fundamentals: Data Types & Structures | Feb 23 | Feb 26 | [{{< fa chalkboard >}}]{style="color: lightgray"} | [{{< fa code >}}]{style="color: lightgray"}  | [{{< fa laptop-code >}}]{style="color: lightgray"} | <i class="fa fa-book" style="color: lightgray; font-weight: bold;"></i> |
+| 4    | Tidy Data: Wrangling & Visualization | Mar 02 | Mar 05 | [{{< fa chalkboard >}}]{style="color: lightgray"} | [{{< fa code >}}]{style="color: lightgray"}  | [{{< fa laptop-code >}}]{style="color: lightgray"} | <i class="fa fa-book" style="color: lightgray; font-weight: bold;"></i> |
+| 5    | Reshaping & Merging Data | Mar 09 | Mar 12 | [{{< fa chalkboard >}}]{style="color: lightgray"} | [{{< fa code >}}]{style="color: lightgray"}  | [{{< fa laptop-code >}}]{style="color: lightgray"} | <i class="fa fa-book" style="color: lightgray; font-weight: bold;"></i> |
 
 #### Block II: The Logic of Bayesian Inference
 
 | Week | Topic | Monday | Thursday | Slides | Excercise | Homework | Ressources |
 |:----:|:-----|:------|:--------|:------:|:----:|:------:|:------:|
-| 6    | Probability, Simulation & Bayes’ Theorem | Mar 16 | Mar 19 | [{{< fa chalkboard >}}]{style="color: lightgray"} | [{{< fa code >}}]{style="color: lightgray"}  | [{{< fa laptop-code >}}]{style="color: lightgray"} | [<i class="fa fa-book" style="color: black; font-weight: bold;"></i>](readings/06_resources.html) |
-| 7    | Bayesian Inference & MCMC | Mar 23 | Mar 26 | [{{< fa chalkboard >}}]{style="color: lightgray"} | [{{< fa code >}}]{style="color: lightgray"}  | [{{< fa laptop-code >}}]{style="color: lightgray"} | [<i class="fa fa-book" style="color: black; font-weight: bold;"></i>](readings/07_resources.html) |
+| 6    | Probability, Simulation & Bayes’ Theorem | Mar 16 | Mar 19 | [{{< fa chalkboard >}}]{style="color: lightgray"} | [{{< fa code >}}]{style="color: lightgray"}  | [{{< fa laptop-code >}}]{style="color: lightgray"} | <i class="fa fa-book" style="color: lightgray; font-weight: bold;"></i> |
+| 7    | Bayesian Inference & MCMC | Mar 23 | Mar 26 | [{{< fa chalkboard >}}]{style="color: lightgray"} | [{{< fa code >}}]{style="color: lightgray"}  | [{{< fa laptop-code >}}]{style="color: lightgray"} | <i class="fa fa-book" style="color: lightgray; font-weight: bold;"></i> |
 
 #### Block III: Applied Data Analysis
 
 | Week | Topic | Monday | Thursday | Slides | Excercise | Homework | Ressources |
 |:----:|:-----|:------|:--------|:------:|:---:|:------:|:------:|
-| 8    | Bivariate Linear Regression    | Apr 13 | Apr 16 | [{{< fa chalkboard >}}]{style="color: lightgray"} | [{{< fa code >}}]{style="color: lightgray"}  | [{{< fa laptop-code >}}]{style="color: lightgray"} | [<i class="fa fa-book" style="color: black; font-weight: bold;"></i>](readings/08_resources.html) |
-| 9    | Multivariate Regression & Interactions | Apr 20 | Apr 23 | [{{< fa chalkboard >}}]{style="color: lightgray"} | [{{< fa code >}}]{style="color: lightgray"}  | [{{< fa laptop-code >}}]{style="color: lightgray"} | [<i class="fa fa-book" style="color: black; font-weight: bold;"></i>](readings/09_resources.html) |
-| 10    | Modeling Binary Outcomes | Apr 27 | Apr 30 | [{{< fa chalkboard >}}]{style="color: lightgray"} | [{{< fa code >}}]{style="color: lightgray"}  | [{{< fa laptop-code >}}]{style="color: lightgray"} | [<i class="fa fa-book" style="color: black; font-weight: bold;"></i>](readings/10_resources.html) |
-| 11    | Fixed Effects & Within-Unit Inference | May 04 | May 07 | [{{< fa chalkboard >}}]{style="color: lightgray"} | [{{< fa code >}}]{style="color: lightgray"}  | [{{< fa laptop-code >}}]{style="color: lightgray"} | [<i class="fa fa-book" style="color: black; font-weight: bold;"></i>](readings/11_resources.html) |
-| 12    | Multilevel Models & Partial Pooling  | May 11 | May 21 | [{{< fa chalkboard >}}]{style="color: lightgray"} | [{{< fa code >}}]{style="color: lightgray"}  | [{{< fa laptop-code >}}]{style="color: lightgray"} | [<i class="fa fa-book" style="color: black; font-weight: bold;"></i>](readings/12_resources.html) |
-| 13    | Beyond the Course: Applying What You’ve Learned | May 18 | May 28 | [{{< fa chalkboard >}}]{style="color: lightgray"} | [{{< fa code >}}]{style="color: lightgray"}  | [{{< fa laptop-code >}}]{style="color: lightgray"} | [<i class="fa fa-book" style="color: black; font-weight: bold;"></i>](readings/13_resources.html) |
+| 8    | Bivariate Linear Regression    | Apr 13 | Apr 16 | [{{< fa chalkboard >}}]{style="color: lightgray"} | [{{< fa code >}}]{style="color: lightgray"}  | [{{< fa laptop-code >}}]{style="color: lightgray"} | <i class="fa fa-book" style="color: lightgray; font-weight: bold;"></i> |
+| 9    | Multivariate Regression & Interactions | Apr 20 | Apr 23 | [{{< fa chalkboard >}}]{style="color: lightgray"} | [{{< fa code >}}]{style="color: lightgray"}  | [{{< fa laptop-code >}}]{style="color: lightgray"} | <i class="fa fa-book" style="color: lightgray; font-weight: bold;"></i> |
+| 10    | Modeling Binary Outcomes | Apr 27 | Apr 30 | [{{< fa chalkboard >}}]{style="color: lightgray"} | [{{< fa code >}}]{style="color: lightgray"}  | [{{< fa laptop-code >}}]{style="color: lightgray"} | <i class="fa fa-book" style="color: lightgray; font-weight: bold;"></i> |
+| 11    | Fixed Effects & Within-Unit Inference | May 04 | May 07 | [{{< fa chalkboard >}}]{style="color: lightgray"} | [{{< fa code >}}]{style="color: lightgray"}  | [{{< fa laptop-code >}}]{style="color: lightgray"} | <i class="fa fa-book" style="color: lightgray; font-weight: bold;"></i> |
+| 12    | Multilevel Models & Partial Pooling  | May 11 | May 21 | [{{< fa chalkboard >}}]{style="color: lightgray"} | [{{< fa code >}}]{style="color: lightgray"}  | [{{< fa laptop-code >}}]{style="color: lightgray"} | <i class="fa fa-book" style="color: lightgray; font-weight: bold;"></i> |
+| 13    | Beyond the Course: Applying What You’ve Learned | May 18 | May 28 | [{{< fa chalkboard >}}]{style="color: lightgray"} | [{{< fa code >}}]{style="color: lightgray"}  | [{{< fa laptop-code >}}]{style="color: lightgray"} | <i class="fa fa-book" style="color: lightgray; font-weight: bold;"></i> |
 | 14    | Take Home Exam | May 28 19:00 -- June 05 23:59 | May 28 19:00 -- June 05 23:59 | [{{< fa chalkboard >}}]{style="color: lightgray"} | [{{< fa code >}}]{style="color: lightgray"}  | [{{< fa laptop-code >}}]{style="color: lightgray"} | [{{< fa book >}}]{style="color: lightgray"} |
