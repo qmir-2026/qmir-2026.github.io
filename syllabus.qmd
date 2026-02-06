@@ -63,7 +63,7 @@ You must submit a complete project repository (project folder) via GitHub. The r
 
 - Fully documented and reproducible code  
 - A rendered PDF file presenting your results (structured similarly to a data, methods, and analysis section of a research paper)  
-- All relevant LLM chat history(ies), if AI tools were used
+- All relevant LLM chat histories, if AI tools were used
 - A statutory declaration according to the [University's guidelines](https://www.sowi.uni-mannheim.de/media/Fakultaeten/sowi/Dokumente/Studiengangsmanagement/Eigenstaendigkeitserklaerung_Statutory_Declaration.pdf)
 
 The version of the repository available on GitHub at the moment the deadline passes will be evaluated.
@@ -85,7 +85,7 @@ If you do not own a suitable device, the University of Mannheim’s IT departmen
 
 ### Software
 
-Please install all required software programs and tools following the separate [installation guide](installation.qmd) before the first session, so we can address any potential issues on that day and fully start the programming part in the subsequent lecture.
+Please install all required software programs and tools following the separate [installation guide](installation.qmd) before the first session, so we can address any potential issues on that day and fully begin the programming component in the subsequent lecture.
 
 ### Optional Practice Materials
 
@@ -97,8 +97,8 @@ Late submissions will not be accepted. If you anticipate any difficulties in mee
 
 ### AI Policy
 
-All submissions will be checked for plagiarism, and violations of the code of conduct may result in failing the course or expulsion. While generative AI tools, such as ChatGPT or Gemini, are permitted for the final examination, any AI-generated content or code must be clearly highlighted, thoroughly commented, and accompanied by the chat history to demonstrate understanding. I will (try to) occasionally provide guidance on using AI responsibly, but relying on it from the start can hinder learning: [research shows AI is most effective for those who already understand the topic](https://arxiv.org/abs/2306.03102). For a detailed explanation of why AI can undermine learning, see [this explanation by Andrew Heiss](https://governancef25.classes.andrewheiss.com/syllabus.html#ai-large-language-models-and-bullshit).
+All submissions will be checked for plagiarism, and violations of the code of conduct may result in failing the course or expulsion. While generative AI tools, such as ChatGPT or Gemini, are permitted for the final examination, any AI-generated content or code must be clearly highlighted, thoroughly commented, and accompanied by the chat history to demonstrate understanding. I will aim to occasionally provide guidance on using AI responsibly, but relying on it from the start can hinder learning: [research shows AI is most effective for those who already understand the topic](https://arxiv.org/abs/2306.03102). For a detailed explanation of why AI can undermine learning, see [this explanation by Andrew Heiss](https://governancef25.classes.andrewheiss.com/syllabus.html#ai-large-language-models-and-bullshit).
 
 ### Mental Health Support
 
-Life and learning at the University of Mannheim can sometimes feel complicated, challenging, or even overwhelming. This is completely normal. You are not expected to fully understand—or memorize—course content on the first attempt. If you ever feel mentally or emotionally strained, you may find helpful advice on the [University of Mannheim's Good Mental Health and Studying page](https://www.uni-mannheim.de/en/academics/studying-the-healthy-way/good-mental-health/). Additionally, the [Help in Times of Crises page](https://www.uni-mannheim.de/en/academics/studying-the-healthy-way/help-in-times-of-crisis/) provides an overview of the various counseling and support services available at the university.
+Life and learning at the University of Mannheim can sometimes feel complicated, challenging, or even overwhelming. This is completely normal. You are not expected to fully understand or memorize course content on the first attempt. If you ever feel mentally or emotionally strained, you may find helpful advice on the [University of Mannheim's Good Mental Health and Studying page](https://www.uni-mannheim.de/en/academics/studying-the-healthy-way/good-mental-health/). Additionally, the [Help in Times of Crises page](https://www.uni-mannheim.de/en/academics/studying-the-healthy-way/help-in-times-of-crisis/) provides an overview of the various counseling and support services available at the university.

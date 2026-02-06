@@ -11,20 +11,20 @@ Here's your roadmap for the semester!
     - {{< fa code >}} Hands-on exercises with guidance.
 - Homework ({{< fa laptop-code >}})
     - Assigned at the end of class.
-    - Due 7 days later (Mon → next Mon 13:30,Thu → next Thu 18:45)
+    - Due 7 days later (Mon → next Mon 13:30; Thu → next Thu 18:45)
 - Additional resources ({{< fa book >}})
     - Further readings and online learning resources
 
 
 ### Semester Schedule
 
-| Week | Topic | Monday | Thursday | Slides | Excercise | Homework | Ressources |
+| Week | Topic | Monday | Thursday | Slides | Exercise | Homework | Ressources |
 |:----:|:-----|:------|:--------|:------:|:---:|:------:|:------:|
 | 1    | Course Roadmap & Research Workflow | Feb 09  | Feb 12  | [{{< fa chalkboard >}}]{style="color: lightgray"} | [{{< fa code >}}]{style="color: lightgray"}  | [{{< fa laptop-code >}}]{style="color: lightgray"} | <i class="fa fa-book" style="color: lightgray; font-weight: bold;"></i> |
 
 #### Block I: Scientific Programming Fundamentals
 
-| Week | Topic | Monday | Thursday | Slides | Excercise | Homework | Ressources |
+| Week | Topic | Monday | Thursday | Slides | Exercise | Homework | Ressources |
 |:----:|:------|:------|:--------|:------:|:---:|:------:|:------:|
 | 2    | Reproducible Research with R, Quarto & Git | Feb 16 | Feb 19 | [{{< fa chalkboard >}}]{style="color: lightgray"} | [{{< fa code >}}]{style="color: lightgray"}  | [{{< fa laptop-code >}}]{style="color: lightgray"} | <i class="fa fa-book" style="color: lightgray; font-weight: bold;"></i> |
 | 3    | R Fundamentals: Data Types & Structures | Feb 23 | Feb 26 | [{{< fa chalkboard >}}]{style="color: lightgray"} | [{{< fa code >}}]{style="color: lightgray"}  | [{{< fa laptop-code >}}]{style="color: lightgray"} | <i class="fa fa-book" style="color: lightgray; font-weight: bold;"></i> |
@@ -33,14 +33,14 @@ Here's your roadmap for the semester!
 
 #### Block II: The Logic of Bayesian Inference
 
-| Week | Topic | Monday | Thursday | Slides | Excercise | Homework | Ressources |
+| Week | Topic | Monday | Thursday | Slides | Exercise | Homework | Ressources |
 |:----:|:-----|:------|:--------|:------:|:----:|:------:|:------:|
 | 6    | Probability, Simulation & Bayes’ Theorem | Mar 16 | Mar 19 | [{{< fa chalkboard >}}]{style="color: lightgray"} | [{{< fa code >}}]{style="color: lightgray"}  | [{{< fa laptop-code >}}]{style="color: lightgray"} | <i class="fa fa-book" style="color: lightgray; font-weight: bold;"></i> |
 | 7    | Bayesian Inference & MCMC | Mar 23 | Mar 26 | [{{< fa chalkboard >}}]{style="color: lightgray"} | [{{< fa code >}}]{style="color: lightgray"}  | [{{< fa laptop-code >}}]{style="color: lightgray"} | <i class="fa fa-book" style="color: lightgray; font-weight: bold;"></i> |
 
 #### Block III: Applied Data Analysis
 
-| Week | Topic | Monday | Thursday | Slides | Excercise | Homework | Ressources |
+| Week | Topic | Monday | Thursday | Slides | Exercise | Homework | Ressources |
 |:----:|:-----|:------|:--------|:------:|:---:|:------:|:------:|
 | 8    | Bivariate Linear Regression    | Apr 13 | Apr 16 | [{{< fa chalkboard >}}]{style="color: lightgray"} | [{{< fa code >}}]{style="color: lightgray"}  | [{{< fa laptop-code >}}]{style="color: lightgray"} | <i class="fa fa-book" style="color: lightgray; font-weight: bold;"></i> |
 | 9    | Multivariate Regression & Interactions | Apr 20 | Apr 23 | [{{< fa chalkboard >}}]{style="color: lightgray"} | [{{< fa code >}}]{style="color: lightgray"}  | [{{< fa laptop-code >}}]{style="color: lightgray"} | <i class="fa fa-book" style="color: lightgray; font-weight: bold;"></i> |

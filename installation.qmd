@@ -34,9 +34,9 @@ This site provides an overview of all software you are expected to install for t
 
 # Installing R {#sec-r}
 
-First, you need to install R, a free and open-source programming language widely used for statistical analysis, data visualization, and reproducible research. R will be our main "tool", you can think of it as an enginge that deals with our calculations.[^renginge] 
+First, you need to install R, a free and open-source programming language widely used for statistical analysis, data visualization, and reproducible research. R will be our main "tool". You can think of it as an engine that deals with our calculations.[^rengige] 
 
-[^renginge]: The engine-dashboard-analogy is borrowed from [Andrew Heiss](https://datavizf25.classes.andrewheiss.com/syllabus.html#r-and-rstudio).
+[^rengige]: The engine-dashboard-analogy is borrowed from [Andrew Heiss](https://datavizf25.classes.andrewheiss.com/syllabus.html#r-and-rstudio).
 
 ::: {.panel-tabset group="os"}
 
@@ -47,10 +47,10 @@ First, you need to install R, a free and open-source programming language widely
 3. Select `base` and download the installation file.
 4. Run the downloaded file to install R.
 
-## MacOS
+## macOS
 
 1. Go to the [Comprehensive R Archive Network (CRAN) website](https://cran.r-project.org/).
-2. Click "Download R for MacOS".
+2. Click "Download R for macOS".
 3. Choose the latest version (4.5.2 at the time of writing):
    - For Apple silicon chips: `R-4.5.2-arm64.pkg`
    - For Intel Macs: `R-4.5.2-x86_64.pkg`
@@ -74,7 +74,7 @@ I decided to teach Positron for a couple of reasons:
 1. It is a modern and super useful IDE for both programming and project management that contains nice new features that allow both for good integration of coding with R and writing with Quarto.
 2. It works neatly with R *and* Python --- although we learn R here, I consider it highly valuable to have the future possibility of incorporating Python as well, as many scientific disciplines and applied enterprises use Python.
 3. It has a very good graphical integration of version controlling using git.
-4. It is built on an open source precessor of ant thus very similar to VS Code, one of the most popular IDE globally.
+4. It is built on an open source predecessor of and thus very similar to VS Code, one of the most popular IDE globally.
 5. Finally, I am confident that if you learn to navigate and work with Positron, you will have no problem adapting to RStudio.
 
 :::
@@ -84,16 +84,16 @@ I decided to teach Positron for a couple of reasons:
 ## Windows
 
 1. Navigate to https://positron.posit.co/install.html
-2. Make sure to install all prerequisites listed for your operating system (you ignore the `Python setup` and `R setup` panes).
+2. Make sure to install all prerequisites listed for your operating system (you can ignore the `Python setup` and `R setup` panes).
 3. Accept the license agreement by ticking the box.
 4. Click `Download Positron for Windows` and run the downloaded file to install Positron.
 
-## MacOS
+## macOS
 
 1. Navigate to https://positron.posit.co/install.html
 2. Make sure to install all prerequisites listed for your operating system (you ignore the `Python setup` and `R setup` panes).
 3. Accept the license agreement by ticking the box.
-4. Click `Download Positron for MacOS` and run the downloaded file to install Positron.
+4. Click `Download Positron for macOS` and run the downloaded file to install Positron.
 
 :::
 
@@ -142,9 +142,9 @@ git --version
 
 You should see a version number. If so, Git is installed correctly.
 
-## MacOS
+## macOS
 
-Since you installed Xcode, you should have Git as it is shipped by Apple in Xcode. Open the terminal and enter:
+Git is included with Xcode. Open the terminal and enter:
 
 ```bash
 git --version
