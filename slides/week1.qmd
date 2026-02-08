@@ -105,7 +105,6 @@ responses <- responses |>
 ```{r}
 #| label: fig-primary-study
 #| fig-cap: "Your answers to: *What is your primary field of study (major/Hauptfach)?*"
-#| code-fold: true
 #| echo: true
 
 library(ggpubr)
@@ -137,6 +136,7 @@ ggplot(
 ```{r}
 #| label: fig-sec-study
 #| fig-cap: "Your answers to: *What is your secondary field of study (minor/Nebenfach)?*"
+#| echo: true
 
 ggplot(
   data = responses,
@@ -161,6 +161,7 @@ ggplot(
 ```{r}
 #| label: fig-semester
 #| fig-cap: "Your answers to: *Which semester of your Bachelor's program are you currently in?*"
+#| echo: true
 
 ggplot(
   data = responses,
@@ -185,6 +186,7 @@ ggplot(
 ```{r}
 #| label: fig-priorstatsclass
 #| fig-cap: "Your answers to: *Have you taken any quantitative methods or statistics course before?*"
+#| echo: true
 
 ggplot(
   data = responses,
@@ -209,6 +211,7 @@ ggplot(
 ```{r}
 #| label: fig-yuhere
 #| fig-cap: "Your answers to: *Why did you register for this course specifically?*"
+#| echo: true
 
 ggplot(
   data = responses,
@@ -233,6 +236,7 @@ ggplot(
 ```{r}
 #| label: fig-feelings
 #| fig-cap: "Your answers to: *Which statements best describes how you feel about quantitative methods right now?*"
+#| echo: true
 
 responses |>
   select(Q2610) |>
@@ -262,6 +266,7 @@ responses |>
 ```{r}
 #| label: fig-tools-heard-of
 #| fig-cap: "Your answers to: *Which of the following tools have you heard of before?*"
+#| echo: true
 
 # Create a named vector for renaming
 tool_names <- c(
@@ -332,6 +337,7 @@ ggplot(
 ```{r}
 #| label: fig-tools-used
 #| fig-cap: "Your answers to: *Which of the following tools have you actively worked with before?*"
+#| echo: true
 
 tools_used_long <- responses |>
   select(contains("Q928658")) |>
@@ -380,6 +386,7 @@ ggplot(
 ```{r}
 #| label: fig-code-experience
 #| fig-cap: "Your answers to: *How would you describe your overall confidence in working with code?*"
+#| echo: true
 
 ggplot(
   data = responses,
@@ -404,6 +411,7 @@ ggplot(
 ```{r}
 #| label: fig-agreescales-I
 #| fig-cap: "Your answers in the agreement/disagreement items I."
+#| echo: true
 
 items_map <- c(
   "Q751740" = "Statistical analysis is mainly about determining whether a hypothesis is true or false.",
@@ -470,6 +478,7 @@ responses |>
 ```{r}
 #| label: fig-agreescales-II
 #| fig-cap: "Your answers in the agreement/disagreement items II: *Imagine you read a study claiming that attending a political debate doubles the likelihood of a person voting in the next election. When you see a numerical result like this (e.g., an estimate or coefficient), what are you usually most interested in?*"
+#| echo: true
 
 items_map <- c(
   "Q859946" = "Whether it is statistically significant.",
