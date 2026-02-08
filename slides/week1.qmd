@@ -1,0 +1,322 @@
+---
+author: Tristan Muno 
+date: last-modified
+date-format: MMMM D, YYYY
+bibliography: ../references.bib
+biblio-style: apsr
+format:
+  revealjs:
+    embed-resources: true
+    preview-links: false
+    slideNumber: true 
+    incremental: true
+    footer:  QMIR -- {{< meta date >}} --  Week 1 
+    logo:  ./images/uma_ss.png
+    theme: theme.scss
+editor: source
+preview-links: true
+---
+
+## QMIR 2026
+
+### Week 1: Course Roadmap & Research Workflow
+
+![](./images/uma_palace.png){width="100%"} {{< meta author >}} <a href="https://github.com/dertristan" target="_blank" style="text-decoration: none; margin-left: 10px;"> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16"> <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/> </svg> </a> <a href="mailto:tristan.muno@uni-mannheim.de" style="text-decoration: none; margin-left: 5px;"> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16"> <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/> </svg> </a> <br> {{< meta date >}}
+
+# Agenda
+
+## Agenda
+
+1.  Who am I?
+2.  Who are you?
+3.  Course roadmap and logistics
+    - What this course will do
+    - What this course will not do
+    - Tip of the Iceberg Metaphor as theme
+4.  Installation & first glance at Positron
+
+------------------------------------------------------------------------
+
+## Survey
+
+Please fill out the following survey:
+
+[dertristan.limesurvey.net/qmir-2026-welcome](https://dertristan.limesurvey.net/qmir-2026-welcome?lang=en&newtest=Y)
+
+![](images/QRCode.png){width="80"}
+
+
+# About me
+
+# About you
+
+```{r}
+#| label: get-responses
+#| eval: false
+
+library(here)
+library(limer)
+library(keyring)
+library(tidyverse)
+
+key_set("lime")
+
+options(lime_api = "https://dertristan.limesurvey.net/admin/remotecontrol")
+options(lime_username = "dertristan")
+options(lime_password = key_get("lime"))
+
+get_session_key()
+responses <- get_responses(698617) |>
+  as_tibble()
+
+saveRDS(responses, file = here("survey_data", "responses.RDS"))
+```
+
+```{r}
+#| label: load-responses
+
+library(here)
+library(tidyverse)
+
+responses <- readRDS(
+  file = here("survey_data", "responses.RDS")
+)
+
+# for real data run
+# responses <- responses |>
+#   filter(!str_detect(Q806045, "TEST"))
+```
+
+------------------------------------------------------------------------
+
+```{r}
+#| label: fig-primary-study
+#| fig-cap: "Your answers to: *What is your primary field of study (major/Hauptfach)?*"
+
+library(ggpubr)
+
+color_main <- "#003056"
+color_highlight <- "#DE7E50"
+
+ggplot(
+  data = responses,
+  mapping = aes(x = fct_infreq(Q806045))
+) +
+  geom_bar(
+    fill = color_main,
+    width = 0.5
+  ) +
+  theme_pubr() +
+  labs(
+    x = "Answer",
+    y = "Count"
+  ) +
+  theme(aspect.ratio = 0.618)
+
+```
+
+------------------------------------------------------------------------
+
+
+```{r}
+#| label: fig-sec-study
+#| fig-cap: "Your answers to: *What is your secondary field of study (minor/Nebenfach)?*"
+
+ggplot(
+  data = responses,
+  mapping = aes(x = fct_infreq(Q933620))
+) +
+  geom_bar(
+    fill = color_main,
+    width = 0.5
+  ) +
+  theme_pubr() +
+  labs(
+    x = "Answer",
+    y = "Count"
+  ) +
+  theme(aspect.ratio = 0.618)
+
+```
+
+------------------------------------------------------------------------
+
+```{r}
+#| label: fig-semester
+#| fig-cap: "Your answers to: *Which semester of your Bachelor's program are you currently in?*"
+
+ggplot(
+  data = responses,
+  mapping = aes(x = fct_infreq(Q897542))
+) +
+  geom_bar(
+    fill = color_main,
+    width = 0.5
+  ) +
+  theme_pubr() +
+  labs(
+    x = "Answer",
+    y = "Count"
+  ) +
+  theme(aspect.ratio = 0.618)
+
+```
+
+------------------------------------------------------------------------
+
+```{r}
+#| label: fig-priorstatsclass
+#| fig-cap: "Your answers to: *Have you taken any quantitative methods or statistics course before?*"
+
+ggplot(
+  data = responses,
+  mapping = aes(x = fct_infreq(Q507207))
+) +
+  geom_bar(
+    fill = color_main,
+    width = 0.5
+  ) +
+  theme_pubr() +
+  labs(
+    x = "Anwer",
+    y = "Count"
+  ) +
+  theme(aspect.ratio = 0.618)
+
+```
+
+------------------------------------------------------------------------
+
+```{r}
+#| label: fig-yuhere
+#| fig-cap: "Your answers to: *Why did you register for this course specifically?*"
+
+ggplot(
+  data = responses,
+  mapping = aes(y = fct_infreq(Q609569))
+) +
+  geom_bar(
+    fill = color_main,
+    width = 0.5
+  ) +
+  theme_pubr() +
+  labs(
+    x = "Count",
+    y = "Answer"
+  ) +
+  theme(aspect.ratio = 0.618)
+
+```
+
+------------------------------------------------------------------------
+
+```{r}
+#| label: fig-feelings
+#| fig-cap: "Your answers to: *Which statements best describes how you feel about quantitative methods right now?*"
+
+responses |>
+  select(Q2610) |>
+  mutate(
+    Q2610_re = str_replace_all(Q2610, "&nbsp;", "")
+  ) |>
+  ggplot(
+    mapping = aes(x = fct_infreq(Q2610_re))
+  ) +
+  geom_bar(
+    fill = color_main,
+    width = 0.5
+  ) +
+  theme_pubr() +
+  labs(
+    y = "Count",
+    x = "Answer"
+  ) +
+  theme(aspect.ratio = 0.618)
+
+```
+
+------------------------------------------------------------------------
+
+
+```{r}
+#| label: fig-tools-heard-of
+#| fig-cap: "Your answers to: *Which of the following tools have you heard of before?*"
+
+# Create a named vector for renaming
+tool_names <- c(
+  "SQ001." = "R",
+  "SQ002." = "RStudio",
+  "SQ004." = "Rmarkdown",
+  "SQ005." = "Git",
+  "SQ006." = "GitHub",
+  "SQ007." = "Python",
+  "SQ008." = "Stata",
+  "SQ009." = "SPSS",
+  "SQ010." = "MS Excel",
+  "SQ011." = "LateX",
+  "SQ012." = "Command line/terminal",
+  "SQ013." = "Positron",
+  "SQ014." = "Markdown",
+  "SQ015." = "Quarto",
+  "SQ016." = "Overleaf",
+  "SQ017." = "MS Word",
+  "SQ018." = "VS Code"
+)
+
+
+tools_heardof_long <- responses |>
+  select(contains("Q509412")) |>
+  # rename columns by replacing SQ### with tool names
+  rename_with(~ str_replace_all(., tool_names), .cols = everything()) |>
+  # pivot longer for ggplot
+  pivot_longer(
+    cols = everything(),
+    names_to = "tool",
+    values_to = "answer"
+  ) |>
+  mutate(tool = str_replace(tool, "Q509412.", ""))
+
+max_count <- tools_heardof_long |>
+  group_by(tool) |>
+  count(answer, sort = T) |>
+  ungroup() |>
+  slice(1) |>
+  pull(n)
+
+
+ggplot(
+  data = tools_heardof_long,
+  mapping = aes(y = fct_infreq(answer))
+) +
+  geom_bar(
+    fill = color_main,
+    width = 0.5
+  ) +
+  theme_pubr() +
+  labs(
+    x = "Count",
+    y = "Answer"
+  ) +
+  theme(aspect.ratio = 0.618) +
+  scale_x_continuous(
+    breaks = seq(from = 0, to = max_count, by = 1)
+  ) +
+  facet_wrap(~tool)
+
+```
+
+------------------------------------------------------------------------
+
+
+
+## Outlook
+
+# Thank you for your attention!
+
+I warmly welcome any feedback, ideas, or thoughts --- they are invaluable for refining and advancing this course ❤
+
+<a href="https://github.com/dertristan" target="_blank" style="text-decoration: none; margin-left: 10px;"> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16"> <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/> </svg> </a> <a href="mailto:tristan.muno@uni-mannheim.de" style="text-decoration: none; margin-left: 5px;"> <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16"> <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/> </svg> </a>
+
+------------------------------------------------------------------------
+
+## References
