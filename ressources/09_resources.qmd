@@ -1,5 +1,5 @@
 ---
-title: Week 9 Readings
+title: Week 9 Resources
 nocite: |
   @mcelreath2020statistical
 ---

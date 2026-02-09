@@ -1,7 +1,10 @@
 ---
-title: Week 2 Readings
+title: Week 2 Resources
 nocite: |
+  @positron-layout
+  @quarto-guide
   @quartocheatsheet
+  @white2021git4dummies
 ---
 
 ::: {#refs}

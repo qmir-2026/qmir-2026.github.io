@@ -1,5 +1,5 @@
 ---
-title: Week 11 Readings
+title: Week 11 Resources
 nocite: |
   @mcelreath2020statistical
 ---

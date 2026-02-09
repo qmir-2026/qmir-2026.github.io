@@ -1,5 +1,5 @@
 ---
-format: pdf
+format: html
 author: Firstname Lastname
 title: Welcome to Quarto
 ---

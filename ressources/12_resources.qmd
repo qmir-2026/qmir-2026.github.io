@@ -1,5 +1,5 @@
 ---
-title: Week 12 Readings
+title: Week 12 Resources
 nocite: |
   @mcelreath2020statistical
 ---
