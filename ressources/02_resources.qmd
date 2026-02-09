@@ -3,7 +3,7 @@ title: Week 2 Resources
 nocite: |
   @positron-layout
   @quarto-guide
-  @quartocheatsheet
+  @quarto-cheatsheet
   @white2021git4dummies
 ---
 
