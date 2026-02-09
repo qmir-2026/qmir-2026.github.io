@@ -7,3 +7,6 @@ ideas.qmd
 survey_data
 week1.qmd
 **/*.quarto_ipynb
+
+week2.qmd
+week2.html
