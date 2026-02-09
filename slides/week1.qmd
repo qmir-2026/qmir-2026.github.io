@@ -106,8 +106,8 @@ responses <- responses |>
   )
 
 # for real data run
-# responses <- responses |>
-#   filter(!str_detect(Q806045, "TEST"))
+responses <- responses |>
+  filter(!str_detect(Q806045, "TEST"))
 ```
 
 ------------------------------------------------------------------------
