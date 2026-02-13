@@ -218,6 +218,42 @@ Using backticks formats text to `look like code`.
 :::
 :::::
 
+
+------------------------------------------------------------------------
+
+## Quarto Markdown {.smaller}
+
+::::: columns
+::: {.column width="50%"}
+``` markdown
+---
+format: html
+---
+
+# Section header
+
+## A subsection
+
+*This sentence is written in italics.*
+**This one is bold.**
+Using backticks formats text to `look like code`.
+
+[This is a hyperlink](www.uni-mannheim.de)
+```
+:::
+
+::: {.column width="50%"}
+### A Section {.unlisted}
+
+#### A subsection {.unlisted}
+
+*This sentence is written in italics.* **This one is bold.** Using backticks formats text to `look like code`.
+
+[This is a hyperlink](https://www.uni-mannheim.de)
+:::
+:::::
+
+
 ------------------------------------------------------------------------
 
 ## Code Cells {.smaller}
