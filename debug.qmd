@@ -1,0 +1,12 @@
+qmd preview error (something with "Deno") -> close / delete current terminal session and click preview again
+-> most of the times works now
+-> delete .quarto or .freeze folders
+-> else manually type quarto render [file], as preview does much more complicated stuff behind the scenes
+
+
+Quarto works in the following order:
+    -> is YAML correct?
+    -> are code cell options correct?
+    -> evaluate code
+    -> "knit" together code, code output and markdown text
+    -> render to desired output

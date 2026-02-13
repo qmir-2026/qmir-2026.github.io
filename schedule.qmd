@@ -26,7 +26,7 @@ Here's your roadmap for the semester!
 
 | Week | Topic | Monday | Thursday | Slides | Exercise | Homework | Ressources |
 |:----:|:------|:------|:--------|:------:|:---:|:------:|:------:|
-| 2    | Reproducible Research with R, Quarto & Git | Feb 16 | Feb 19 | [{{< fa chalkboard >}}]{style="color: lightgray"} | [{{< fa code >}}]{style="color: lightgray"}  | [{{< fa laptop-code >}}]{style="color: lightgray"} | [<i class="fa fa-book" style="color: black; font-weight: bold;"></i>](ressources/02_resources.qmd) |
+| 2    | Reproducible Research with R, Quarto & Git | Feb 16 | Feb 19 | [<i class="fa fa-chalkboard" style="color: black; font-weight: bold;"></i>](slides/week2.html) | [{{< fa code >}}]{style="color: lightgray"}  | [{{< fa laptop-code >}}]{style="color: lightgray"} | [<i class="fa fa-book" style="color: black; font-weight: bold;"></i>](ressources/02_resources.qmd) |
 | 3    | R Fundamentals: Data Types & Structures | Feb 23 | Feb 26 | [{{< fa chalkboard >}}]{style="color: lightgray"} | [{{< fa code >}}]{style="color: lightgray"}  | [{{< fa laptop-code >}}]{style="color: lightgray"} | <i class="fa fa-book" style="color: lightgray; font-weight: bold;"></i> |
 | 4    | Tidy Data: Wrangling & Visualization | Mar 02 | Mar 05 | [{{< fa chalkboard >}}]{style="color: lightgray"} | [{{< fa code >}}]{style="color: lightgray"}  | [{{< fa laptop-code >}}]{style="color: lightgray"} | <i class="fa fa-book" style="color: lightgray; font-weight: bold;"></i> |
 | 5    | Reshaping & Merging Data | Mar 09 | Mar 12 | [{{< fa chalkboard >}}]{style="color: lightgray"} | [{{< fa code >}}]{style="color: lightgray"}  | [{{< fa laptop-code >}}]{style="color: lightgray"} | <i class="fa fa-book" style="color: lightgray; font-weight: bold;"></i> |
