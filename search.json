@@ -312,7 +312,7 @@
     "href": "slides/week2.html#agenda",
     "title": "QMIR 2026",
     "section": "Agenda",
-    "text": "Agenda\n\nThe Big Picture – What is Reproducible Research?\nWhat is Literate Programming?\nVersion Control – The Concept\nGitHub as Infrastructure\nWalkthrough & Exercises"
+    "text": "Agenda\n\nThe Big Picture – What is Reproducible Research?\nWhat is Literate Programming?\nVersion Control with Git\nGitHub as Infrastructure\nWalkthrough & Exercises"
   },
   {
     "objectID": "slides/week2.html#what-is-reproducible-research",
@@ -397,6 +397,13 @@
     "title": "QMIR 2026",
     "section": "Markdown",
     "text": "Markdown\n\n\n# Section header\n\n## A subsection\n\n*This sentence is written in italics.*\n**This one is bold.**\nUsing backticks formats text to `look like code`.\n\n[This is a hyperlink](www.uni-mannheim.de)\n\nA Section\nA subsection\nThis sentence is written in italics. This one is bold. Using backticks formats text to look like code.\nThis is a hyperlink"
+  },
+  {
+    "objectID": "slides/week2.html#quarto-markdown",
+    "href": "slides/week2.html#quarto-markdown",
+    "title": "QMIR 2026",
+    "section": "Quarto Markdown",
+    "text": "Quarto Markdown\n\n\n---\nformat: html\n---\n\n# Section header\n\n## A subsection\n\n*This sentence is written in italics.*\n**This one is bold.**\nUsing backticks formats text to `look like code`.\n\n[This is a hyperlink](www.uni-mannheim.de)\n\nA Section\nA subsection\nThis sentence is written in italics. This one is bold. Using backticks formats text to look like code.\nThis is a hyperlink"
   },
   {
     "objectID": "slides/week2.html#code-cells",
